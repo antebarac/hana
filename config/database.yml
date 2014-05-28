@@ -47,8 +47,10 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+
 production:
   <<: *default
   database: hana_production
-  username: hana
-  password: <%= ENV['HANA_DATABASE_PASSWORD'] %>
+  username: ysubmarine
+  password: ysbu5ge8 
+  socket: /var/run/mysqld/mysqld.sock
