@@ -1,10 +1,10 @@
 second = ->
   $("#blood").fadeIn()
-  $("#bkg2").slideDown()
+  $("#bkg2").fadeIn()
 
 third = ->
   $("#bruises").fadeIn()
-  $("#bkg3").slideDown()
+  $("#bkg3").fadeIn()
 
 fourth = ->
   $("#morebruises").fadeIn()
