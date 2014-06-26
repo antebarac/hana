@@ -77,12 +77,18 @@ adjust_scroll = (e)->
     animating_scroll = true
     activate_slide(visible_slide_index - 1, visible_slide_index)
 
+resize = ->
+  gutter = ($(window).width() - 1140)/2
+  gutter = 0 if gutter < 0
+  $("#hana").css("left", gutter)
+  $(".window .contents, .gradjani").css("left", 370 + gutter)
 
 handle_start = ->
   if $(".slide").size() > 0
     $("body").height($(".slide").size() * scroll_settings.slide_height)
   $(window).scroll($.throttle(40, adjust_scroll))
-
+  resize()
+  $(window).resize(resize)
 
 page_load = ->
   hide_initial()

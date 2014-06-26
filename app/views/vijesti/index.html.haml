@@ -1,0 +1,67 @@
+#everything{style: 'display:none'}
+  =render partial: 'shared/tabs', locals: { active_tab: :vijesti }
+  #bkg1.dynamic-background
+  #hana
+    =image_tag("hana.png")
+  .window.news-window
+    .contents
+      .slide-container
+        .slide.slide1
+          %ul.news
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti1.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+        .slide.slide2
+          %ul.news
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti2.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+            %li
+              %a{href: 'javascript:show_news(1)'}
+                =image_tag('vijesti1.jpg')
+                %h1 Lorem ipsum dolor sum avet est nomen ultra
+
+
+  #scroll
+    =image_tag("scroll.png")
+
+
+
