@@ -1,13 +1,43 @@
 #everything{style: 'display:none'}
-  #bkg2
-  #bkg3
+  =render partial: 'shared/tabs', locals: { active_tab: :home }
+  #bkg1.dynamic-background
+  #bkg2.dynamic-background
+  #bkg3.dynamic-background
+  #bkg4.dynamic-background
   #hana
     =image_tag("hana.png")
   #blood
     =image_tag("blood.png")
-  #bruises
-    =image_tag("bruises.png")
-  #morebruises
-    =image_tag("morebruises.png")
-  #bkg4
+  #moreblood
+    =image_tag("moreblood.png")
+  #bkg5.dynamic-background
+  .window
+    .contents
+      .slide-container
+        .slide.slide1.centered
+          =image_tag('headline.png')
+        .slide.slide2
+          %h1= t(:upoznajte_hanu)
+          %h1= t(:upoznajte_hanu_text)
+        .slide.slide3
+          %h1= t(:nazalost_nikako)
+        .slide.slide4
+          %h1= t(:prvi_dan)
+        .slide.slide5
+          %h1= t(:iducih_dana)
+        .slide.slide6
+          %h1= t(:ipak_kad_je_policija)
+        .slide.slide7
+          %h1= t(:kada_su_je_pustili)
+        .slide.slide8
+          %h1= t(:otmicari_osudjeni)
+        .slide.slide9
+          %h1= t(:hana_je_ljudsko_bice)
+        .slide.slide10.centered
+          =image_tag('headline.png')
+  .gradjani
+    %h2= t(:gradjani)
+    %p= t(:gradjani_text)
+  #scroll
+    =image_tag("scroll.png")
 

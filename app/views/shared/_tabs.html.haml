@@ -1,0 +1,16 @@
+.center-fixed
+  %nav
+    %ul
+      %li
+        %a{href: '/home', class: "#{active_tab == :home ? 'active' : ''}"}= t(:home)
+      %li
+        %a{href: '/trgovina', class: "#{active_tab == :trgovina_ljudima ? 'active' : ''}"}= t(:trgovina_ljudima)
+      %li
+        %a{href: '/o_projektu', class: "#{active_tab == :o_projektu ? 'active' : ''}"}= t(:o_projektu)
+      %li
+        %a{href: '/vijesti', class: "#{active_tab == :vijesti ? 'active' : ''}"}= t(:vijesti)
+      %li
+        %a{href: '/dokumenti', class: "#{active_tab == :dokumenti_i_izvjestaji ? 'active' : ''}"}= t(:dokumenti_i_izvjestaji)
+      %li
+        %a{href: '/dokumenti', class: "#{active_tab == :press ? 'active' : ''}"}= t(:press)
+      %li.stretch
