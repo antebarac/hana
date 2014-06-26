@@ -81,7 +81,7 @@ resize = ->
   gutter = ($(window).width() - 1140)/2
   gutter = 0 if gutter < 0
   $("#hana").css("left", gutter)
-  $(".window .contents, .gradjani").css("left", 370 + gutter)
+  $(".window .contents, .gradjani, ul.language-picker").css("left", 370 + gutter)
 
 handle_start = ->
   if $(".slide").size() > 0
