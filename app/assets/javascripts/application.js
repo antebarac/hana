@@ -17,4 +17,5 @@
 //= require jquery.simplemodal.min
 //= require jquery-ui.min
 //= require jquery.mobile.min
+//= require redactor-rails
 //= require_tree .

@@ -25,9 +25,10 @@ module Hana
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    config.i18n.default_locale = :ba
+    config.i18n.default_locale = :hr
+    config.i18n.available_locales = [:hr, :en, :sr, :ba, :mk]
     config.assets.paths << "#{config.root}/app/assets/fonts"
-    config.assets.precompile += %w( .svg .eot .woff .ttf .otf )
+    config.assets.precompile += %w( .svg .eot .woff .ttf .otf redactor-rails.css redactor-rails.js)
 
   end
 end

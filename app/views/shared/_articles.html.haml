@@ -1,0 +1,27 @@
+#everything{style: 'display:none'}
+  =render partial: 'shared/tabs', locals: { active_tab: active_tab}
+  #bkg1.dynamic-background
+  #hana
+    =image_tag("hana.png")
+  .window.news-window
+    .contents
+      .slide-container
+        - slide_counter = 0
+        - articles.in_groups_of(3, false) do |article_group|
+          %div{class: "slide slide#{slide_counter += 1}"}
+            %ul.news
+              - article_group.each do |article|
+                %li
+                  %a{href: "javascript:show_news(#{article.id})"}
+                    - if article.title_image.image?
+                      =image_tag(article.title_image.url(:thumb))
+                    - else
+                      .file-type
+                        =image_tag(Icon.for_filename('myfile.jpg'))
+                    %h1= article.title
+          
+  #scroll
+    =image_tag("scroll.png")
+
+
+
