@@ -1,4 +1,6 @@
 class VijestiController < ApplicationController
+  before_filter :authenticate   
+
   def index
   end
 

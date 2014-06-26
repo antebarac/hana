@@ -12,4 +12,12 @@ class ApplicationController < ActionController::Base
       I18n.locale = cookies[:locale]
     end
   end
+
+  def authenticate
+    if Rails.env.production?
+      authenticate_or_request_with_http_basic do |username, password|
+        username == "astra" && password == "a2st5a?"
+      end 
+    end
+  end
 end
