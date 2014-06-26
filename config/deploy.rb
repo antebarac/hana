@@ -5,7 +5,7 @@ set :application, 'Hana'
 set :repo_url, 'git@github.com:antebarac/hana.git'
 
 set :deploy_to, '/mnt/apps/hana'
-set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads}
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
@@ -37,4 +37,3 @@ set :pty, true
 set :keep_releases, 3
 
 set :preload_app, true
-

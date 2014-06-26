@@ -7,6 +7,7 @@
 set :rails_env, "production"
 role :web, %w{rails@ysburger.com}
 role :app, %w{rails@ysburger.com}
+role :db, %w{rails@ysburger.com}
 
 
 # Extended Server Syntax

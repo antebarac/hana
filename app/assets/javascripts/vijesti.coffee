@@ -5,7 +5,8 @@ window.show_news = (id) ->
       onShow: ->
         $("#simplemodal-container").css({
           top: 0,
-          height: 'auto'
+          height: 'auto',
+          position: 'absolute'
         })
     })
   )
