@@ -1,4 +1,4 @@
 .news
-  %h2= @article.created_at.to_s(:short)
+  %h2= I18n.l @article.created_at.to_date, format: :default
   %h1= @article.title 
   =@article.body.html_safe
