@@ -6,8 +6,7 @@ animating_scroll = false
 scroll_settings = {
   slide_height: 1000,
   top_offset: 90,
-  animation_speed: 1000,
-  animation_easing: 'easeOutExpo'
+  animation_speed: 500
 }
 
 hide_initial =->
@@ -25,13 +24,15 @@ hide_background = (id)->
 
 show_background = (id)->
   if(id == "#bkg5")
-    $(id).slideDown(500)
+    $(id).slideDown(300)
   else
     $(id).fadeIn()
 
 activate_slide = (index, prev_index) ->
   $("html, body").animate({scrollTop: (index - 1) * scroll_settings.slide_height}, scroll_settings.animation_speed, ->
-    animating_scroll = false
+    setTimeout(->
+      animating_scroll = false
+    , 1000)
   )
   if(index > prev_index)
     show_background("#bkg2") if index == 3
