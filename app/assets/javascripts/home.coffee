@@ -54,6 +54,9 @@ activate_slide = (index, prev_index) ->
 
 
 adjust_scroll = (e)->
+  window_height = $(window).height()
+  window_height = 750 if window_height < 750
+  size_offset = (window_height - 750) /2
   scroll_top = $(window).scrollTop()
   return if scroll_top < 0
   return if scroll_top > ($("body").height() - scroll_settings.slide_height)
@@ -64,7 +67,7 @@ adjust_scroll = (e)->
   for active_slide_index in  [1..slide_count]
     slide_offset = scroll_top - ((active_slide_index - 1) * scroll_settings.slide_height)
     $active_slide = $(".slide" + active_slide_index)
-    $active_slide.css("top", slide_offset + scroll_settings.top_offset)
+    $active_slide.css("top", slide_offset + scroll_settings.top_offset + size_offset)
   visible_slide_index = parseInt((scroll_top + scroll_settings.slide_height/2) / scroll_settings.slide_height) + 1
   if animating_scroll
     return false
@@ -80,7 +83,14 @@ adjust_scroll = (e)->
 resize = ->
   gutter = ($(window).width() - 1140)/2
   gutter = 0 if gutter < 0
+  window_height = $(window).height()
+  window_height = 750 if window_height < 750
   $("#hana").css("left", gutter)
+  $("#hana").css("top", (window_height - 509) /2)
+  $("#scroll").css("top", window_height - 100)
+  $(".window").css("margin-top", (window_height - 750) /2 + 90)
+  $(".gradjani").css("margin-top", (window_height - 750) /2)
+  $("ul.language-picker").css("margin-top", (window_height - 750) /2 + 150)
   $(".window .contents, .gradjani, ul.language-picker").css("left", 370 + gutter)
 
 handle_start = ->
