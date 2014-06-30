@@ -85,6 +85,11 @@ resize = ->
   gutter = 0 if gutter < 0
   window_height = $(window).height()
   window_height = 750 if window_height < 750
+  window_width = $(window).width()
+  window_width = 940 if window_width < 940
+  text_width = 500 +  window_width - 940
+  text_width = 700 if text_width > 700
+  $(".gradjani").css("width", text_width)
   $("#hana").css("left", gutter)
   $("#hana").css("top", (window_height - 509) /2)
   $("#scroll").css("top", window_height - 100)
