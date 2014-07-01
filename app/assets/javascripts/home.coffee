@@ -5,8 +5,8 @@ animating_scroll = false
 
 scroll_settings = {
   slide_height: 1000,
-  top_offset: 90,
-  animation_speed: 500
+  top_offset: 0,
+  animation_speed: 750
 }
 
 hide_initial =->
@@ -18,13 +18,13 @@ show_loaded =->
 
 hide_background = (id)->
   if(id == "#bkg5")
-    $(id).slideUp(500)
+    $(id).slideUp(400)
   else
     $(id).fadeOut()
 
 show_background = (id)->
   if(id == "#bkg5")
-    $(id).slideDown(300)
+    $(id).slideDown(400)
   else
     $(id).fadeIn()
 
@@ -32,7 +32,7 @@ activate_slide = (index, prev_index) ->
   $("html, body").animate({scrollTop: (index - 1) * scroll_settings.slide_height}, scroll_settings.animation_speed, ->
     setTimeout(->
       animating_scroll = false
-    , 1000)
+    , 100)
   )
   if(index > prev_index)
     show_background("#bkg2") if index == 3
@@ -57,13 +57,19 @@ activate_slide = (index, prev_index) ->
 adjust_scroll = (e)->
   window_height = $(window).height()
   window_height = 750 if window_height < 750
-  size_offset = (window_height - 750) /2
+  size_offset = 0
+  #(window_height - 750) /2
   scroll_top = $(window).scrollTop()
   return if scroll_top < 0
   return if scroll_top > ($("body").height() - scroll_settings.slide_height)
   scroll_up = scroll_top < last_scroll_top
   scroll_down = scroll_top > last_scroll_top
+  console.log({
+    scroll_top: scroll_top,
+    last_scroll_top: last_scroll_top
+  })
   last_scroll_top = scroll_top
+
   slide_count = $(".slide-container .slide").size()
   for active_slide_index in  [1..slide_count]
     slide_offset = scroll_top - ((active_slide_index - 1) * scroll_settings.slide_height)
@@ -71,13 +77,18 @@ adjust_scroll = (e)->
     $active_slide.css("top", slide_offset + scroll_settings.top_offset + size_offset)
   visible_slide_index = parseInt((scroll_top + scroll_settings.slide_height/2) / scroll_settings.slide_height) + 1
   if animating_scroll
+    scroll_down = false
+    scroll_up = false
     return false
   visible_offset = scroll_top - ((visible_slide_index - 1) * scroll_settings.slide_height)
-  if scroll_down && visible_offset > 20
-    return if visible_slide_index == slide_count
+  console.log({
+    visible_slide_index: visible_slide_index,
+    scroll_down: scroll_down
+  })
+  if scroll_down 
     animating_scroll = true
     activate_slide(visible_slide_index + 1, visible_slide_index)
-  if scroll_up && visible_offset < (scroll_settings.slide_height - 20)
+  if scroll_up 
     animating_scroll = true
     activate_slide(visible_slide_index - 1, visible_slide_index)
 
@@ -93,7 +104,7 @@ resize = ->
   $(".gradjani").css("width", text_width)
   $("#hana").css("left", gutter)
   $("#hana").css("top", (window_height - 509) /2)
-  $("#scroll").css("top", window_height - 100)
+  $("#scroll").css("top", window_height - 120)
   $(".window").css("margin-top", (window_height - 750) /2 + 90)
   $(".gradjani").css("margin-top", (window_height - 750) /2)
   $("ul.language-picker").css("margin-top", (window_height - 750) /2 + 150)
