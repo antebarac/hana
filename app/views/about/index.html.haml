@@ -40,10 +40,14 @@
               %li= saradnik
         .slide.big-slide.slide7
           %h1= t(:kontakt)
-          %p= t(:kontakt_naziv)
-          %p= t(:kontakt_tel_fax)
-          %p= t(:kontakt_email).html_safe
-          %p= t(:kontakt_web).html_safe
+          %p
+            = t(:kontakt_naziv)
+            <br/>
+            = t(:kontakt_tel_fax)
+            <br/>
+            = t(:kontakt_email).html_safe
+            <br/>
+            = t(:kontakt_web).html_safe
 
 
           

@@ -1,30 +1,130 @@
 en:
-  home: Home
-  trgovina_ljudima: Trgovina ljudima
-  o_projektu: O projektu
-  vijesti: Vijesti
-  dokumenti_i_izvjestaji: Dokumenti i izvjestaji
-  press: Press
-  gradjani: Građani
-  gradjani_text: Čak i ako samo sumnjate na slučaj trgovine ljudima odmah ga prijavite .  Upoznajte se s problemom trgovine ljudima. Važno je da razumete da se u zemljama Balkana, gde veliki broj stanovnika živi na ivici egzistencije, gde su visoke stope nezaposlenosti, rada na crno i siromaštva, ljudi često prihvataju poslovne ponude koje nisu proverili. Šta više, ponekad je ponude trgovaca ljudima teško razlikovati od legitimnih poslovnih ponuda. Žrtva trgovine ljudima može postati svako i ni jedna žrtva nije kriva za situaciju u kojoj se našla! Kao građani društva u kome je sloboda osnovno pravo i vrednost, dužni smo da im pomognemo i učinimo njihov oporavak što lakšim i bezbolnijim. 
-  upoznajte_hanu: Upoznajte Hanu
-  upoznajte_hanu_text: Kao i mnogi njezini vršnjaci, Hana se željela osamostaliti i naći posao.
-  nazalost_nikako: Nažalost, nikako ga nije uspjela naći, unatoč svom trudu koji je ulagala.
-  prvi_dan: Prvi dan njezinog posla, uzeli su joj putovnicu i pretukli je. 
-  iducih_dana: Sljedećih 10 dana provela je u mračnom podrumu, a nakon toga su je poslali da radi.
-  ipak_kad_je_policija: Ipak, kad je policija upala u objekt Hanu nisu oslobodili, već zatvorili.
-  kada_su_je_pustili: Kada su je za tjedan dana pustili, ostala je sama i nije znala kome se obratiti za pomoć.
-  otmicari_osudjeni: Iako je sudac osudio otmičare, Hana nikad nije dobila naknadu za batine koje je morala trpjeti, oduzetu slobodu, prisilan rad, strah koji je pretrpjela, trajno narušeno psihičko i fizičko zdravlje te život koji više nikad neće biti isti.
-  hana_je_ljudsko_bice: Hana je ljudsko biće kao i vi, a ipak nema ista prava kao i vi.
-  trgovina_ljudima_text1: Trgovina ljudima podrazumeva prodaju i kupovinu, tj. držanje neke osobe u cilju njene eksploatacije, kao i sve druge radnje koje mogu biti deo tog procesa (npr. prevoz, skrivanje, čuvanje i sl.). Do eksploatacije uvek dolazi i eksploatacija se uvek održava upotrebom sile, pretnje, prevarom, zloupotrebom ovlašćenja i/ili zloupotrebom teškog položaja, otmicom ili na neki drugi način. Kada se radi o trgovini decom, nije važno koje sredstvo je upotrebljeno, tj. govorimo o trgovini ljudima iako nije bilo elemenata pretnje, prinude, zloupotrebe položaja i slično. Takođe, pristanak žrtve na eksploataciju ne menja činjenicu da se radi o trgovini ljudima i da je to krivično delo.
-  trgovina_ljudima_text2: Trgovina ljudima je globalni fenomen koji pogađa sve zemlje, bile one bogate, zemlje u razvoju ili nerazvijene zemlje. Srbija, Hrvatska, BJR Makedonija i Bosna i Hercegovina su zemlje porekla žrtava, tranzitne zemlje i zemlje destinacije za žrtve trgovine ljudima.
-  prava_zrtava: 'Prava žrtava trgovine ljudima:'
-  privatnost_text: Žrtve trgovine ljudima imaju pravo na zaštitu identiteta i privatnog života, uključujući i isključivanje javnosti iz sudskih postupaka u kojima žrtva učestvuje.
-  informiranost: Informisanost
-  informiranost_text: Žrtve trgovine ljudima imaju pravo na zaštitu identiteta i privatnog života, uključujući i isključivanje javnosti iz sudskih postupaka u kojima žrtva učestvuje.
-  fizicka_zastita: Zaštita fizičkog integriteta i bezbednosti
-  fizicka_zastita_text: Žrtvama trgovine ljudima garantovano je i pravo na zaštitu fizičkog integriteta i bezbednosti. Policija je dužna da utvrdi da li je bezbednost žrtve ugrožena i da joj, u skladu sa tim, obezbedi sigurnost.
-  zastita_svjedoka: Zaštita bezbednosti žrtve kao svedoka tj. oštećenog/e
-  zastita_svjedoka_text: Ukoliko kao svedoci učestvuju u krivičnom postupku, žrtve trgovine ljudima imaju pravo na fizičku zaštitu, kao i da se sa njima postupa dostojanstveno i s poštovanjem.
-  pravna_pomoc: Pravna pomoć
-  pravna_pomoc_text: Žrtve trgovine ljudima imaju pravo na besplatnu pravnu pomoć, uključujući i pravo na advokata koji će štititi njena prava i braniti njene interese. 
+  home: Home 
+  trgovina_ljudima: Human trafficking
+  o_projektu: About the Project
+  vijesti: News 
+  dokumenti_i_izvjestaji: Documents and Reports
+  press: Press releases
+  gradjani: Citizens
+  gradjani_text: Even when you harbour a slightest suspicion of human trafficking, report the case without delay. Become familiar with the problem of human trafficking. It is important for you to understand that in the Balkan countries, where many people live on the breadline, where unemployment rates are high, as well as those of undeclared work and poverty, people often accept the job offers that they did not check. Furthermore, sometimes the offers of human traffickers are hard to distinguish from the regular job offers. Anyone can become a human trafficking victim and no victim is to blame for his/her situation! As a citizen of a society in which liberty is a fundamental right and value, we are obliged to help and make their recovery as easy and successful as possible. 
+  sto_drustvo_moze: What can the society do to help Hana?
+  upoznajte_hanu: Meet Hana
+  upoznajte_hanu_text: As many of her peers, Hana wanted to become independent and find a job. 
+  nazalost_nikako: Unfortunately, despite the efforts she made, she could not find any.  
+  u_ocajnickoj_potrazi: Desperately looking for a job, she responded to an advertisement she had found on the internet. 
+  prvi_dan: On her first working day, her passport was confiscated and she was beaten up. 
+  iducih_dana: After spending ten days in a dark basement, she was sent to work. 
+  ipak_kad_je_policija: However, when the police raided the premises, Hana was not freed but arrested. 
+  kada_su_je_pustili: When she was released from the detention, she was left alone and did not know who to turn to for help. 
+  otmicari_pusteni: The people that exploited her were released on bail. 
+  cekala_sudjenje: Hana waited for the trial for quite a long time. She was scared for her life, scared for her safety. She spent years and years living in fear.
+  zakazano_sudjenje: Once proceedings were finally scheduled, Hana was forced to confront the people that had tortured and exploited her. 
+  strasno_iskustvo: For Hana, this was a horrifying experience.
+  hana_nadoknada: Even though the traffickers were convicted, Hana never received compensation
+  za_batine: For the violence she had to endure
+  za_oduzetu_slobodu: For the liberty she was deprived of
+  za_prisilni_rad: For the forced labour 
+  za_strah: For the fear she lived in
+  za_trajno_naruseno: For the permanent injuries to her psychological and physical health 
+  za_zivot: For the life which will never be the same
+  hana_je_ljudsko_bice: Hana is a human being just like you, yet she does not have equal rights. 
+  trgovina_ljudima_text1: Human trafficking involves selling, buying or keeping a person with the purpose of exploitation, as well as all other actions that might constitute a part of that process (i.e. transport, hiding, guarding, etc.). Exploitation is always facilitated and perpetuated by the use of force, threat, deception, abuse of authority and/or abuse of one’s ill-being, by kidnapping, or in some other way. When it comes to trafficking in children, it does not matter which means were used, that is, the case is considered to be the crime act of human trafficking even in cases where there were no elements of threat, force, abuse of power, etc. Furthermore, victim’s consent to exploitation does not change the fact that an act is the one of human trafficking and that it constitutes a crime. 
+  trgovina_ljudima_text2: Human trafficking is a global phenomenon which affects all countries, rich or poor, developing or underdeveloped. Serbia, Croatia, FYR Macedonia and Bosnia and Herzegovina are all countries of origin, transit or destination for the victims of human trafficking.
+  prava_zrtava: 'Rights of human trafficking victims:'
+  privatnost: Privacy
+  privatnost_text: Human trafficking victims have the right for their identity and private life to be protected; this right includes the exclusion of general public from the court proceedings which involve THB victims. 
+  informiranost: Informing 
+  informiranost_text: Human trafficking victims need to be timely informed about their status, rights, as well as about relevant judicial and administrative procedures.  
+  fizicka_zastita: Protection of physical integrity and safety
+  fizicka_zastita_text: Human trafficking victims are also guaranteed the right to protection of their physical integrity and safety. Police is obliged to establish whether a person’s safety is at risk and to ensure his/her safety accordingly. 
+  zastita_svjedoka: Protection of safety of victims as witnesses or injured parties
+  zastita_svjedoka_text: In case they participate in criminal proceedings as witnesses, human trafficking victims are entitled to physical protection, as well as to a dignified and respectful treatment.  
+  pravna_pomoc: Legal assistance 
+  pravna_pomoc_text: Human trafficking victims are entitled to free legal assistance, which includes the right to a lawyer who shall protect their rights and their interests. 
+  nadoknada_stete: Compensation for damages 
+  nadoknada_stete_text: Human trafficking victims are entitled to be compensated for the trauma they endured, violation of honour, reputation, freedom, personal rights and dignity, as well as endured fear, physical injuries or health consequences. This right needs to be protected, even when the state is unable to collect the required funds from the traffickers. 
+  nekaznjavanje: Non-penalty 
+  nekaznjavanje_text: As a human trafficking victim, the person cannot be criminally prosecuted, or punished for the illegal activities s/he engaged in, including prostitution, beggary, theft or other acts committed under coercion.
+  smestaj: Accommodation 
+  smestaj_text: The right to be accommodated in a shelter for human trafficking victims or some other, alternative accommodation is also guaranteed to human trafficking victims. 
+  medicinska_pomoc: Medical assistance
+  medicinska_pomoc_text: Healthcare services covered by the statutory health insurance are provided free of charge to human trafficking victims. This right is also valid for the foreign nationals.  
+  psiholoska_pomoc: Psychological assistance 
+  psiholoska_pomoc_text: Human trafficking victims are entitled to psychological assistance i.e. individual and/or group therapy and counselling. 
+  reintegracija: (Re)integration and social inclusion 
+  reintegracija_text: Human trafficking victims need to be informed about all assistance programmes available to them. 
+  prevodioc: Translation services  
+  prevodioc_text: In case a victim is located in a country in which his/her native language is not spoken, s/he is entitled to get an interpreter and to receive all information, especially those pertaining to the legal rights of human trafficking victims, in a language s/he understands.  
+  nijedno_od_prava: None of these rights are conditioned by the victim’s cooperation with the state authorities. No one may pressure the victim to participate in the exposure of, or criminal proceedings against the human traffickers and their accomplices.  
+  boravak: Approval of humanitarian residence 
+  boravak_text: Competent police administration may approve temporary residence due to humanitarian reasons to the victims who are not domestic nationals. Temporary residence is approved for the duration of three months without any additional conditions, or six months/one year in case the victim decides to cooperate with the police and judicial authorities in the criminal proceedings against the traffickers. Temporary residence may be prolonged in case the reasons for its approval are still valid. It is especially important that the approval of temporary residence enables the victims to move freely and work for the duration of their stay in the country. 
+  povratak: Repatriation  
+  povratak_text_1: In case that a human trafficking victim wants to return to his/her country of origin, or the country in which s/he had resided before entering the country in which s/he was identified as victim, state authorities are obliged to facilitate his/her repatriation without unnecessary or unjustified delay and taking care of his/her safety in the process.  
+  povratak_text_2: In case the victim lacks necessary documents for the return, his/her country of origin is obliged to issue all the necessary documents.    
+  projekt_podrzavaju: "The Project supported by:"
+  projekat_realizuju: "The project is implemented by:"
+  projekat_realizuju_list: 
+    - ASTRA - Anti Trafficking Action, Serbia
+    - PSD - Partnership for Social Development, Croatia
+    - Open Gate - La strada, Macedonia
+    - International Forum of Solidarity - EMMAUS, Bosnia and Herzegovina
+    - ALC - Accompagnement, Lieux d’Accueil, Carrefour educatif et social, France
+    - CCEM - Committe Contre L’Esclavage Moderne, France
+    - NHC - Netherlands Helsinki Committee, The Netherlands 
+  projekat_finansira: "The project is funded by:"
+  projekat_finansira_text: the European Union within the IPA programme - Civil Society Facility Framework Partnership Agreements
+  projekat_podrzavaju_list:  
+    - The French Republic
+    - Embassy of the Kingdom of the Netherlands
+    - OAK Foundation
+    - Government of the Republic of Croatia – Office for Cooperation with NGOs
+  trajanje_projekta: "Duration of the project:"
+  trajanje_projekta_text: 24 months (December 2012 – December 2014)
+  ciljevi: Objectives
+  ciljevi_text_1: The overall objective of the project is to contribute to democratisation and EU integration processes in the Western Balkans through improving civil activism environment, capacity, commitment and influence of civil society networks in debate on human rights and the rule of law related to the issue of organized crime, specifically human trafficking.
+  ciljevi_text_2: Specific objective is to enhance capacity of CSOs independent and objective analysis and monitoring; legitimacy and accountability; influence over policy in Serbia, Croatia, Bosnia and Herzegovina and FYR Macedonia, in efforts to contribute to combating of human trafficking and aligning justice sector policies with standards, norms and values of the EU.
+  osnovne_aktivnosti: "Main activities:"
+  osnovne_aktivnosti_list:
+    - Completion of detailed situation analysis in all targeted countries and it informs finalized Partnership Strategy
+    - Creation, endorsement and operationalization of the regional CSO Declaration on combating human trafficking
+    - CSO trainings in high level advocacy, analysis and justice sector monitoring
+    - Implementation of regional conference aimed at transferring EU practices in prosecution of traffickers
+    - Implementation of the targeted national and regional advocacy campaigns 
+    - Development of CSO monitoring mechanism
+  ocekivani_rezultati: "Expected results:"
+  ocekivani_rezultati_list:
+    - CSOs and justice sectors in targeted Western Balkans countries improve their partnership ties and joint work
+    - Western Balkans CSOs strengthened in high level analysis, advocacy and monitoring; in giving voice to citizens; accountability and working together
+    - Targeted policies aligned with EU values and standards, and advocacy campaigns add value to the operation of justice sectors
+    - The overarching CSO regional strategy operationalized 
+  saradnici_na_projektu: "Project collaborators:"
+  saradnici_na_projektu_list:
+    - Association of Prosecutors of the Federation of Bosnia and Herzegovina
+    - CRPC – Criminal Policy and Research Centre, Bosnia and Herzegovina
+    - Ministry of Security/Department for Combating Human Trafficking (State Coordinator), Bosnia and Herzegovina  
+    - Women’s Association Vukovar, Croatia
+    - Women’s Room – Center for sexual rights, Croatia 
+    - NGO Dawn, Croatia
+    - Ministry of Justice, France
+    - AHRPR – Association for human rights protection of Roma – Shtip, FYR Macedonia
+    - Academy for Training Judges and Public Prosecutors of Macedonia, FYR Macedonia
+    - Coalition “All for fair trials”, FYR Macedonia
+    - HRC – Human Rights Committee Vranje, Serbia
+    - NGO The World of Words, Serbia
+    - JAS – Judiciary academy of Serbia
+  kontakt: Contact
+  kontakt_naziv: ASTRA - Anti Trafficking Action
+  kontakt_tel_fax: "tel/fax: +381 11 785 0000"
+  kontakt_email: "e-mail:	<a href='mailto:astra@astra.rs'>astra@astra.rs</a>"
+  kontakt_web: "web: <a href='http://www.astra.org.rs'>www.astra.org.rs</a>"
+  attachments: "Dokumenti i slike"
+  trendovi_u_trgovini: Human Trafficking Trends in Serbia
+  trendovi_u_trgovini_list:
+    - The majority of identified victims of human trafficking are Serbian nationals. Out of the total number of the victims identified by ASTRA (by June 2014), 79% have been the citizens of Serbia. Until the end of 2004, the majority of the identified victims were foreign nationals. Ever since then, however, the number of Serbian nationals falling victim to human trafficking has been growing. According to the data of ASTRA and the Center for Protection of Human Trafficking Victims, in 2008 and 2009 only 12-15% of the identified victims were foreign nationals, while in 2013, as much as 96% of the identified victims were Serbian citizens. 
+    - Furthermore, there is a high incidence of internal trafficking, meaning that all the phases of human trafficking, from recruitment and transport to exploitation itself, are performed within a single country. Thereby the most frequent destination of exploitation for the victims identified in Serbia is in fact this very country. While in 2009, when this trend was recognised, the share of the victims exploited in Serbia was around 50%, in 2013 it increased to 70%. 
+    - Since 2004, a significant rise in the number of children exploited in human trafficking rings has been noted. While in 2002-2003 there were 10% of children among identified victims, last year their share rose to 41%. Regardless of this fact, Serbia still lacks specialised programmes for the recovery of minor victims and measures of treating children who were subjected to trafficking in human beings. The children receive the same type of assistance as the adult victims, they share shelters with them and receive the same treatment, or they are accommodated in the shelters for abused children, where they fail to receive the necessary specialised assistance. 
+    - Human trafficking is undoubtedly a gender issue. The majority of the human trafficking victims in Serbia are women and girls (70% according to ASTRA’s data) exposed to sexual exploitation. Furthermore, the victims are sometimes exposed to multiple forms of exploitation (i.e. sexual and labour exploitation, or sexual exploitation and coercion to petty crime). 
+    - Nonetheless, another trend recorded by anti-trafficking actors in Serbia is the rise in the number of men among identified victims (26% in the previous 5½ years). In the previous years, mass and irregular migrations of Serbian workers to the Russian Federation and countries of the former USSR were particularly problematic. As a rule, victims of human trafficking as a form of labour exploitation are adult males, usually exploited on international construction sites. Due to the culture bound reasons (patriarchal society does not encourage men to admit that they are victims, or to recognise themselves as such), mode of exploitation (exploitation in construction industry often involves a great number of victims) and unclear identification procedures, the number of identified victims is often significantly smaller than the actual number of people violated in these cases. 
+    - Apart from sexual and labour exploitation, other types of human trafficking that are present, though less so, are forced begging, forced marriage, coercion to petty crime and illegal adoption.  
+  stats: off
+

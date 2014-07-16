@@ -1,31 +1,129 @@
 hr:
-  home: Home
+  home: Naslovna
   trgovina_ljudima: Trgovina ljudima
   o_projektu: O projektu
   vijesti: Vijesti
-  dokumenti_i_izvjestaji: Dokumenti i izvjestaji
-  press: Press
+  dokumenti_i_izvjestaji: Dokumenti i izjvešća
+  press: Priopćenja za medije
   gradjani: Građani
-  gradjani_text: Čak i ako samo sumnjate na slučaj trgovine ljudima odmah ga prijavite .  Upoznajte se s problemom trgovine ljudima. Važno je da razumete da se u zemljama Balkana, gde veliki broj stanovnika živi na ivici egzistencije, gde su visoke stope nezaposlenosti, rada na crno i siromaštva, ljudi često prihvataju poslovne ponude koje nisu proverili. Šta više, ponekad je ponude trgovaca ljudima teško razlikovati od legitimnih poslovnih ponuda. Žrtva trgovine ljudima može postati svako i ni jedna žrtva nije kriva za situaciju u kojoj se našla! Kao građani društva u kome je sloboda osnovno pravo i vrednost, dužni smo da im pomognemo i učinimo njihov oporavak što lakšim i bezbolnijim. 
+  gradjani_text: Čak i ako samo sumnjate na slučaj trgovanja ljudima odmah ga prijavite. Upoznajte se s problemom trgovanja ljudima. Važno je da razumijete da u zemljama Balkana, gdje veliki broj stanovnika živi na rubu egzistencije, gdje su visoke stope nezaposlenosti, rada na crno i siromaštva, ljudi često prihvaćaju poslovne ponude koje nisu provjerili. Štoviše, ponekad je ponude trgovaca ljudima teško razlikovati od regularnih poslovnih ponuda. Žrtva trgovanja ljudima može postati svatko i ni jedna žrtva nije kriva za situaciju u kojoj se našla! Kao građani društva u kojem je sloboda osnovno pravo i vrijednost, dužni smo im pomoći i učiniti njihov oporavak što lakšim i bezbolnijim.
+  sto_drustvo_moze: Što društvo može učiniti da pomogne Hani?
   upoznajte_hanu: Upoznajte Hanu
-  upoznajte_hanu_text: Kao i mnogi njezini vršnjaci, Hana se željela osamostaliti i naći posao.
-  nazalost_nikako: Nažalost, nikako ga nije uspjela naći, unatoč svom trudu koji je ulagala.
-  prvi_dan: Prvi dan njezinog posla, uzeli su joj putovnicu i pretukli je. 
+  upoznajte_hanu_text: Upoznajte Hanu. Kao i mnogi njeni vršnjaci, Hana se htjela osamostaliti i pronaći posao.
+  nazalost_nikako: Nažalost, usprkos trudu koji je ulagala, nikako ga nije uspijela pronaći.
+  u_ocajnickoj_potrazi: U očajničkoj potrazi za poslom javila se na oglas koji je pronašla na internetu. 
+  prvi_dan: Prvog dana na poslu oduzeli su joj putovnicu i pretukli je.
   iducih_dana: Sljedećih 10 dana provela je u mračnom podrumu, a nakon toga su je poslali da radi.
-  ipak_kad_je_policija: Ipak, kad je policija upala u objekt Hanu nisu oslobodili, već zatvorili.
-  kada_su_je_pustili: Kada su je za tjedan dana pustili, ostala je sama i nije znala kome se obratiti za pomoć.
-  otmicari_osudjeni: Iako je sudac osudio otmičare, Hana nikad nije dobila naknadu za batine koje je morala trpjeti, oduzetu slobodu, prisilan rad, strah koji je pretrpjela, trajno narušeno psihičko i fizičko zdravlje te život koji više nikad neće biti isti.
+  ipak_kad_je_policija: Ipak, kada je policija upala u objekt, Hanu nisu oslobodili već zatvorili.
+  kada_su_je_pustili: Kada su je pustili iz pritvora, ostala je sama i nije znala kome se obratiti za pomoć.
+  otmicari_pusteni: Ljudi koji su je eksploatirali pušteni su da se brane sa slobode.
+  cekala_sudjenje: Hana je jako dugo čekala na suđenje. Bojala se za svoj život, bojala se za svoju sigurnost. Godine je provela u strahu.
+  zakazano_sudjenje: Kada je napokon zakazano suđenje, Hana je bila prisiljena suočiti se s ljudima koji su je mučili i eksploatirali.
+  strasno_iskustvo: Za Hanu je to bilo strašno iskustvo.
+  hana_nadoknada: Iako su trgovci osuđeni, Hana nikad nije dobila naknadu
+  za_batine: za batine koje je morala trpjeti
+  za_oduzetu_slobodu: za oduzetu slobodu
+  za_prisilni_rad: za prisilni rad
+  za_strah: za strah koji je pretrpjela
+  za_trajno_naruseno: za trajno narušeno psihičko i fizičko zdravlje
+  za_zivot: za život koji više nikada neće biti isti
   hana_je_ljudsko_bice: Hana je ljudsko biće kao i vi, a ipak nema ista prava kao i vi.
-  trgovina_ljudima_text1: Trgovina ljudima podrazumeva prodaju i kupovinu, tj. držanje neke osobe u cilju njene eksploatacije, kao i sve druge radnje koje mogu biti deo tog procesa (npr. prevoz, skrivanje, čuvanje i sl.). Do eksploatacije uvek dolazi i eksploatacija se uvek održava upotrebom sile, pretnje, prevarom, zloupotrebom ovlašćenja i/ili zloupotrebom teškog položaja, otmicom ili na neki drugi način. Kada se radi o trgovini decom, nije važno koje sredstvo je upotrebljeno, tj. govorimo o trgovini ljudima iako nije bilo elemenata pretnje, prinude, zloupotrebe položaja i slično. Takođe, pristanak žrtve na eksploataciju ne menja činjenicu da se radi o trgovini ljudima i da je to krivično delo.
-  trgovina_ljudima_text2: Trgovina ljudima je globalni fenomen koji pogađa sve zemlje, bile one bogate, zemlje u razvoju ili nerazvijene zemlje. Srbija, Hrvatska, BJR Makedonija i Bosna i Hercegovina su zemlje porekla žrtava, tranzitne zemlje i zemlje destinacije za žrtve trgovine ljudima.
-  prava_zrtava: 'Prava žrtava trgovine ljudima:'
-  privatnost_text: Žrtve trgovine ljudima imaju pravo na zaštitu identiteta i privatnog života, uključujući i isključivanje javnosti iz sudskih postupaka u kojima žrtva učestvuje.
-  informiranost: Informisanost
-  informiranost_text: Žrtve trgovine ljudima imaju pravo na zaštitu identiteta i privatnog života, uključujući i isključivanje javnosti iz sudskih postupaka u kojima žrtva učestvuje.
-  fizicka_zastita: Zaštita fizičkog integriteta i bezbednosti
-  fizicka_zastita_text: Žrtvama trgovine ljudima garantovano je i pravo na zaštitu fizičkog integriteta i bezbednosti. Policija je dužna da utvrdi da li je bezbednost žrtve ugrožena i da joj, u skladu sa tim, obezbedi sigurnost.
-  zastita_svjedoka: Zaštita bezbednosti žrtve kao svedoka tj. oštećenog/e
-  zastita_svjedoka_text: Ukoliko kao svedoci učestvuju u krivičnom postupku, žrtve trgovine ljudima imaju pravo na fizičku zaštitu, kao i da se sa njima postupa dostojanstveno i s poštovanjem.
+  trgovina_ljudima_text1: Trgovanje ljudima podrazumijeva prodaju i kupovinu, tj. držanje neke osobe u cilju njene eksploatacije, kao i sve druge radnje koje mogu biti dio tog procesa (npr. prijevoz, skrivanje, čuvanje i sl.). Do eksploatacije uvijek dolazi i eksploatacija se uvijek održava upotrebom sile, prijetnje, prijevarom, zloupotrebom ovlasti i/ili položaja, otmicom ili na neki drugi način. Kada je riječ o trgovanju djecom, nije važno koje sredstvo je upotrebljeno, tj. govorimo o trgovanju ljudima iako nije bilo elemenata prijetnje, prisile, zloupotrebe položaja i slično. Također, pristanak žrtve na eksploataciju ne mijenja činjenicu da se radi o trgovanju ljudima i da je to kazneno djelo.
+  trgovina_ljudima_text2: Trgovanje ljudima je globalni fenomen koji pogađa sve zemlje, bile one bogate, zemlje u razvoju ili nerazvijene zemlje. Srbija, Hrvatska, BJR Makedonija i Bosna i Hercegovina su zemlje porijekla žrtava, tranzitne zemlje i zemlje destinacije za žrtve trgovanja ljudima.
+  prava_zrtava: 'Prava žrtava trgovanja ljudima:'
+  privatnost: Privatnost 
+  privatnost_text: Žrtve trgovanja ljudima imaju pravo na zaštitu identiteta i privatnog života, uključujući i isključivanje javnosti iz sudskih postupaka u kojima žrtva sudjeluje. 
+  informisanost: Informiranost 
+  informiranost_text: Žrtvama trgovanja ljudima pravovremeno moraju biti dostupne informacije vezane za njihov status, prava i relevantne sudske i administrativne postupke. 
+  fizicka_zastita: Zaštita fizičkog integriteta i sigurnosti
+  fizicka_zastita_text: Žrtvama trgovanja ljudima garantirano je i pravo na zaštitu fizičkog integriteta i sigurnosti. Policija je dužna utvrditi da li je sigurnost žrtve ugrožena i, u skladu s tim, osigurati njenu sigurnost.
+  zastita_svjedoka: Zaštita sigurnosti žrtve kao svjedoka tj. oštećenog/e
+  zastita_svjedoka_text: Ukoliko kao svjedoci sudjeluju u kaznenom postupku, žrtve trgovanja ljudima imaju pravo na fizičku zaštitu, kao i da se s njima postupa dostojanstveno i s poštovanjem. 
   pravna_pomoc: Pravna pomoć
-  pravna_pomoc_text: Žrtve trgovine ljudima imaju pravo na besplatnu pravnu pomoć, uključujući i pravo na advokata koji će štititi njena prava i braniti njene interese. 
-  attachments: Dokumenti i slike
+  pravna_pomoc_text: Žrtve trgovanja ljudima imaju pravo na besplatnu pravnu pomoć, uključujući i pravo na odvjetnika koji će štititi njihova prava i braniti njihove interese. 
+  projekt_podrzavaju: "Projekt podržavaju:"
+  nadoknada_stete: Naknada štete
+  nadoknada_stete_text: Zbog pretrpljene traume, povrede časti, ugleda, slobode, prava osobnosti i dostojanstva, pretrpljenog straha, fizičkih ozljeda i zdravstvenih posljedica trgovanja ljudima, žrtve imaju pravo na naknadu štete. To pravo mora biti zaštićeno, čak i kada država ne može naplatiti potrebna sredstva od ljudi koji su ih eksploatirali.
+  nekaznjavanje: Nekažnjavanje
+  nekaznjavanje_text: Kao žrtva trgovanja ljudima, osoba ne može biti kazneno gonjena niti kažnjena zbog toga što se bavila nedozvoljenim radnjama, uključujući i prostituciju, prošnju, krađu i druga djela počinjena pod prisilom.
+  smestaj: Smještaj
+  smestaj_text: Pravo na smještaj u skloništu za žrtve trgovanja ljudima ili u nekom drugom, alternativnom smještaju također je zajamčeno žrtvama trgovanja ljudima. 
+  medicinska_pomoc: Medicinska pomoć
+  medicinska_pomoc_text: Zdravstvene usluge, koje su obuhvaćene obaveznim zdravstvenim osiguranjem, besplatne su za žrtve trgovanja ljudima. Ovo pravo odnosi se i na strane državljane/ke. 
+  psiholoska_pomoc: Psihološka pomoć 
+  psiholoska_pomoc_text: Žrtve trgovanja ljudima imaju pravo na psihološku pomoć u vidu individualne i/ili grupne psihoterapije i savjetovanja.
+  reintegracija: (Re)integracija i socijalna inkluzija 
+  reintegracija_text: Žrtve trgovanja ljudima moraju biti informirane o svim programima pomoći koji su im dostupni.
+  prevodioc: Usluge prevoditelja 
+  prevodioc_text: Ukoliko se žrtva nalazi u zemlji gdje se ne govori njen materinji jezik, ona ima pravo na prevoditelja i da joj sve informacije, posebno one u vezi sa zakonskim pravima žrtava trgovanja ljudima, budu priopćene na jeziku koji razumije. 
+  nijedno_od_prava: Nijedno od ovih prava nije uvjetovano suradnjom s državnim tijelima. Nitko nema pravo da vrši pritisak na žrtvu kako bi sudjelovala u otkrivanju i kaznenom progonu trgovaca ljudima i njihovih pomagača. 
+  boravak: Odobrenje humanitarnog boravka 
+  boravak_text: Nadležna policijska uprava može odobriti privremeni boravak iz humanitarnih razloga žrtvama koje nisu domaći državljani. Privremeni boravak se odobrava u trajanju od tri mjeseca bez ikakvih drugih uvijeta, tj. šest mjeseci ili godinu dana ukoliko žrtva odluči sarađivati s policijom i pravosudnim tijelima u kaznenom progonu trgovca. Privremeni boravak se može produžavati ukoliko i dalje postoje razlozi za njegovo odobrenje. Posebno je važno da odobrenje privremenog boravka žrtvama omogućuje slobodu kretanja i rada u zemlji boravka.  
+  povratak: Povratak (repatrijacija) 
+  povratak_text_1: U slučaju da se žrtva želi vratiti u zemlju porijekla ili zemlju u kojoj je boravila prije ulaska u zemlju u kojoj je identificirana, tijela državne vlasti su dužna omogućiti joj odlazak bez nepotrebnog ili neopravdanog odgađanja i vodeći računa o njenoj sigurnosti. 
+  povratak_text_1: Ukoliko nema odgovarajuću dokumentaciju za povratak, njena zemlja porijekla joj je dužna izdati svu potrebnu dokumentaciju. 
+  projekat_realizuju: "Projekat provode:"
+  projekat_realizuju_list: 
+    - ASTRA – Akcija protiv trgovine ljudima, Srbija
+    - PSD – Partnerstvo za društveni razvoj, Hrvatska
+    - Otvorena porta – La Strada, Makedonija
+    - MFS Emmaus – Međunarodni forum solidarnosti, Bosna i Hercegovina
+    - ALC – Accompagnement, Lieux  d’Accueil, Carrefour educatif et social, Francuska
+    - CCEM – Committe Contre L’Esclavage Moderne, Francuska
+    - NHC – Netherlands Helsinki Committee, Holandija
+  projekat_finansira: "Projekat financira:"
+  projekat_finansira_text: Europskа unijа u okviru IPA programa – Civil Society Facility Framework Partnership Agreements
+  projekat_podrzavaju_list:  
+    - Republika Francuska
+    - Ambasada Kraljevine Nizozemske
+    - OAK Fondacija
+    - Vlada Republike Hrvatske - Ured za udruge
+  trajanje_projekta: Trajanje projekta
+  trajanje_projekta_text: 24 mjeseca (prosinac 2012 – prosinac 2014)
+  ciljevi: Ciljevi
+  ciljevi_text_1: Osnovni cilj projekta doprinijeti demokratizaciji i EU integracijskim procesima u zemljama zapadnog Balkana kroz poboljšanje civilnog aktivizma, kapaciteta, predanosti i utjecaja mreža civilnog društva u raspravi o ljudskim pravima i vladavini prava u vezi s pitanjem organiziranog kriminala, a posebno trgovine ljudima. 
+  ciljevi_text_2: Specifičan cilj je unapređenje kapacateta organizacija civilnog društva za nezavisnu i objektivnu analizu i praćenje; legitimitet i odgovornost; utjecaj nad politikom u Srbiji, Hrvatskoj, Bosni i Hercegovini, te Makedoniji, u nastojanjima da doprinesu borbi protiv trgovine ljudima i usklađivanju politika pravosudnog sektora sa standardima, normama i vrijednostima EU.    
+  osnovne_aktivnosti: "Osnovne aktivnosti:"
+  osnovne_aktivnosti_list:
+    - Završetak detaljne analize stanja u svim ciljanim zemljama i finalizirana Strategija partnerstva
+    - Stvaranje, odobrenja i operacionalizacija regionalne OCD Deklaracije o borbi protiv trgovine ljudima
+    - OCD treninzi vezani uz visoku razinu zagovaranja, analizu i praćenje pravosudnog sektora
+    - Implementacija regionalne konferencije usmjerene na prijenos EU prakse u procesuiranju krijumčara
+    - Ciljane kampanje zagovaranja na nacionalnoj i regionalnoj razini
+    - Razvoj mehanizma monitoringa organizacija civilnog društva
+  ocekivani_rezultati: "Očekivani rezultati:"
+  ocekivani_rezultati_list:
+    - OCD i pravni sektori u ciljanim zemljama zapadnog Balkana poboljšavaju svoje partnerske odnose i zajednički rad.
+    - OCD Zapadnog Balkana ojačane u visokoj razini analize, zagovaranja i praćenja, u davanju glasa građanima; odgovornosti i zajedničkom radu.
+    - Ciljane politike usklađene s EU vrijednostima i standardima, a zagovaračke kampanje pomažu radu pravosudnih sektora.
+    - Sveobuhvatna OCD regionalna strategija operacionalizirana   
+  saradnici_na_projektu: "Suradnici na projektu:"
+  saradnici_na_projektu_list:
+    - Udruženje tužilaca Federacije Bosne i Hercegovine
+    - CRPC – Criminal Policy and Research Centre, Bosna i Hercegovina
+    - Ministarstvo sigurnosti/Odsjek za borbu protiv trgovinu ljudima (državni koordinator), Bosna i Hercegovina
+    - Udruga žena Vukovar, Hrvatska
+    - Ženska soba – Centar za seksualna prava, Hrvatska
+    - NVO Zora, Hrvatska
+    - Ministarstvo pravde, Francuska
+    - AHRPR – Asocijacija za zaštitu ljudskih prava Roma i Albanaca, BJR Makedonija
+    - Akademija za sudije i javne tužioce Makedonije
+    - Odbor za ljudska prava Vranje, Srbija
+    - UG „Svet reči“, Srbija
+    - Pravosudna akademija, Srbija
+    - Koalicija „Svi za pravično suđenje“, BJR Makedonija
+  kontakt: Kontakt
+  kontakt_naziv: ASTRA – Akcija protiv trgovine ljudima
+  kontakt_tel_fax: "tel/fax: +381 11 785 0000"
+  kontakt_email: "e-mail:	<a href='mailto:astra@astra.rs'>astra@astra.rs</a>"
+  kontakt_web: "web: <a href='http://www.astra.org.rs'>www.astra.org.rs</a>"
+  attachments: "Dokumenti i slike"
+  trendovi_u_trgovini: Trendovi u trgovanju ljudima u Hrvatskoj
+  trendovi_u_trgovini_list:
+    - U Republici Hrvatskoj je od 2005. do 2013. godine ukupno identificirano 112 žrtava trgovanja ljudima. Među identificiranim žrtvama prevladavaju domaće državljanke i državljani. Od ukupnog broja identificiranih žrtava, 62,5% su bili državljanke i državljani Republike Hrvatske. 
+    - U razdoblju od 2005. do 2010. godine identificirano je 10 maloljetnih žrtava i 45 punoljetnih (za jednu se osobu ne zna točan podatak). Za 2011., 2012. i 2013. nisu točno navedeni podaci o godištu žrtava, nego su svrstani u kategorije (npr. od 18. do 24. godine) te se ne može sa sigurnošću napraviti statistika. Iz ukupnog broja nije moguće usporediti podatke  o stupnju obrazovanja, pripadnosti nacionalnim manjinama, kategorizaciji prema dobi, kategorizaciji trgovanja, zbog njihove nesistematiziranosti.
+    - Najčešći tipovi eksploatacije su seksualna i radna eksploatacija,  a uz to se još javljaju i prisilno činjenje kaznenih djela, prisilna prošnja i prisilan brak.
+    - Proces identifikacije žrtava nije transparentan i još uvijek ovisi o volji državnog aparata, odnosno političkoj volji i javnim politikama koje u svom fokusu nemaju primarnu zaštitu žrtava, već se vode, za državu „većim” interesom čuvanja sigurnosti, odnosno kontrole migracijskih i socijalnih politika.
+    - Ne postoji adekvatna neovisna kontrola sustava identifikacije, svi akteri koji izvještavaju o procesu identifikacije žrtava, ujedno su i akteri koji sudjeluju u aparatu sveobuhvatne podrške žrtvama zajedno s državom i izravno ovise o financiranju od strane države. Kompenzacija žrtvama trgovanja ljudima još uvijek je potpuna teoretska, pravna i praktična nepoznanica.
+    - Reciprocitet procesuiranja kaznenih djela trgovanja ljudima, u odnosu na djela koja se inače povezuju s trgovanjem ljudima  (npr. medjunarodna prostitucija) još uvijek nije na zadovoljavajućoj razini. Konceptualno, država još uvijek nije zauzela stratešku poziciju  spram trgovanja ljudima koja bi se kvalitetno, dugoročno i analitički bavila trendovima i fenomenima povezanim s ovom tematikom.
+  stats: off
