@@ -34,24 +34,30 @@ activate_slide = (index, prev_index) ->
       animating_scroll = false
     , 100)
   )
+  if($(".slide:eq(" + (index - 1) + ")").hasClass("big-slide"))
+    $(".window").addClass("bigger-window")
+    $(".hide-on-big-window").hide()
+  else
+    $(".window").removeClass("bigger-window")
+    $(".hide-on-big-window").show()
   if(index > prev_index)
-    show_background("#bkg2") if index == 3
-    show_background("#bkg3") if index == 4
-    show_background("#bkg4") if index == 5
-    show_background("#bkg5") if index == 6
-    hide_background("#bkg5") if index == 7
-    hide_background("#bkg4") if index == 8
-    hide_background("#bkg3") if index == 9
-    hide_background("#bkg2") if index == 10
+    show_background("#bkg2") if index == 4
+    show_background("#bkg3") if index == 5
+    show_background("#bkg4") if index == 6
+    show_background("#bkg5") if index == 7
+    hide_background("#bkg5") if index == 8
+    hide_background("#bkg4") if index == 9
+    hide_background("#bkg3") if index == 10
+    hide_background("#bkg2") if index == 11
   if(index < prev_index)
-    hide_background("#bkg2") if index == 2
-    hide_background("#bkg3") if index == 3
-    hide_background("#bkg4") if index == 4
-    hide_background("#bkg5") if index == 5
-    show_background("#bkg5") if index == 6
-    show_background("#bkg4") if index == 7
-    show_background("#bkg3") if index == 8
-    show_background("#bkg2") if index == 9
+    hide_background("#bkg2") if index == 4
+    hide_background("#bkg3") if index == 5
+    hide_background("#bkg4") if index == 6
+    hide_background("#bkg5") if index == 7
+    show_background("#bkg5") if index == 8
+    show_background("#bkg4") if index == 9
+    show_background("#bkg3") if index == 10
+    show_background("#bkg2") if index == 11
 
 
 adjust_scroll = (e)->
@@ -108,7 +114,7 @@ resize = ->
   $(".window").css("margin-top", (window_height - 750) /2 + 90)
   $(".gradjani").css("margin-top", (window_height - 750) /2)
   $("ul.language-picker").css("margin-top", (window_height - 750) /2 + 150)
-  $(".window .contents, .gradjani, ul.language-picker").css("left", 370 + gutter)
+  $(".window .contents, .gradjani, ul.language-picker").css("left", 320 + gutter)
 
 handle_start = ->
   if $(".slide").size() > 0

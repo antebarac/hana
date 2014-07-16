@@ -1,0 +1,49 @@
+#everything{style: 'display:none'}
+  =render partial: 'shared/tabs', locals: { active_tab: :about }
+  #bkg1.dynamic-background
+  #hana
+    =image_tag("hana.png")
+  .window.bigger-window
+    .contents.left-pad
+      .slide-container.left-pad
+        .slide.big-slide.slide1
+          %h1= "„Balkans ACT (Against Crime of Trafficking) Now“"
+          %h1= t(:projekat_realizuju)
+          - t(:projekat_realizuju_list).each do |realizira|
+            %p= realizira
+        .slide.big-slide.slide2
+          %h1= t(:projekat_finansira)
+          %p= t(:projekat_finansira_text)
+          %h1= t(:projekt_podrzavaju)
+          - t(:projekat_podrzavaju_list).each do |podrzava|
+            %p= podrzava
+        .slide.big-slide.slide3
+          %h1= t(:trajanje_projekta)
+          %p= t(:trajanje_projekta_text)
+          %h1= t(:ciljevi)
+          %p= t(:ciljevi_text_1)
+          %p= t(:ciljevi_text_2)
+        .slide.big-slide.slide4
+          %h1= t(:osnovne_aktivnosti)
+          %ul
+            - t(:osnovne_aktivnosti_list).each do |aktivnost|
+              %li= aktivnost
+        .slide.big-slide.slide5
+          %h1= t(:ocekivani_rezultati)
+          %ul
+            - t(:ocekivani_rezultati_list).each do |rezultat|
+              %li= rezultat
+        .slide.big-slide.slide6
+          %h1= t(:saradnici_na_projektu)
+          %ul
+            - t(:saradnici_na_projektu_list).each do |saradnik|
+              %li= saradnik
+        .slide.big-slide.slide7
+          %h1= t(:kontakt)
+          %p= t(:kontakt_naziv)
+          %p= t(:kontakt_tel_fax)
+          %p= t(:kontakt_email).html_safe
+          %p= t(:kontakt_web).html_safe
+
+
+          

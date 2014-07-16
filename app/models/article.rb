@@ -5,7 +5,7 @@ class Article < ActiveRecord::Base
   accepts_nested_attributes_for :attachments, allow_destroy: true
 
   default_scope {
-    includes(:category).includes(:attachments).order(created_at: :desc)
+    includes(:category).includes(:attachments).where(locale: I18n.locale).order(created_at: :desc)
   }
 
   scope :published, -> {
@@ -30,7 +30,7 @@ class Article < ActiveRecord::Base
     elsif attachments.size > 0
       attachments.first.image
     else
-      {thumb: ''}
+      nil
     end
   end
 end

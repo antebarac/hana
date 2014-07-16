@@ -22,20 +22,54 @@
         .slide.slide3
           %h1= t(:nazalost_nikako)
         .slide.slide4
-          %h1= t(:prvi_dan)
+          %h1= t(:u_ocajnickoj_potrazi)
         .slide.slide5
-          %h1= t(:iducih_dana)
+          %h1= t(:prvi_dan)
         .slide.slide6
-          %h1= t(:ipak_kad_je_policija)
+          %h1= t(:iducih_dana)
         .slide.slide7
-          %h1= t(:kada_su_je_pustili)
+          %h1= t(:ipak_kad_je_policija)
         .slide.slide8
-          %h1= t(:otmicari_osudjeni)
+          %h1= t(:kada_su_je_pustili)
         .slide.slide9
+          %h1= t(:otmicari_pusteni)
+        .slide.slide10
+          %h1= t(:cekala_sudjenje)
+        .slide.slide11
+          %h1= t(:zakazano_sudjenje)
+        .slide.slide12
+          %h1= t(:strasno_iskustvo)
+        .slide.slide13
+          %h1= t(:hana_nadoknada)
+          %ul
+            %li= t(:za_batine)
+            %li= t(:za_oduzetu_slodobud)
+            %li= t(:za_prisilni_rad)
+            %li= t(:za_strah)
+            %li= t(:za_trajno_naruseno)
+            %li= t(:za_zivot)
+        .slide.slide14
           %h1= t(:hana_je_ljudsko_bice)
-        .slide.slide10.centered
-          =image_tag('headline.png')
-  .gradjani
+        .slide.slide15.big-slide
+          %h1= t(:sto_drustvo_moze)
+          %p= t(:cak_i_ako_sumnjate)
+        .slide.slide16.big-slide
+          %h1= t(:projekt_podrzavaju)
+          %ul.logos
+            %li= link_to image_tag("logo/logo1.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo2.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo3.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo4.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo5.png"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo6.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo7.png"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo8.png"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo9.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo10.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo11.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo12.jpg"), "javascript:void(null)"
+            %li= link_to image_tag("logo/logo13.jpg"), "javascript:void(null)"
+  .gradjani.hide-on-big-window
     %h2= t(:gradjani)
     %p= t(:gradjani_text)
   #scroll

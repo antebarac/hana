@@ -1,14 +1,14 @@
 #everything{style: 'display:none'}
-  =render partial: 'shared/tabs', locals: { active_tab: :trgovina_ljudima }
+  =render partial: 'shared/tabs', locals: { active_tab: :trafficking }
   #bkg1.dynamic-background
   #hana
     =image_tag("hana.png")
   .window.bigger-window
     .contents
       .slide-container
-        .slide.slide1
+        .slide.big-slide.slide1
           %p= t(:trgovina_ljudima_text1)
-        .slide.slide2
+        .slide.big-slide.slide2
           %p= t(:trgovina_ljudima_text2)
           %p.italic= t(:prava_zrtava)
 
@@ -19,7 +19,7 @@
           %h3.number 2
           %h2= t(:informiranost)
           %p= t(:informiranost_text)
-        .slide.slide3
+        .slide.big-slide.slide3
           .pad &nbsp;
           %h3.number 3
           %h2= t(:fizicka_zastita)
@@ -32,6 +32,47 @@
           %h3.number 5
           %h2= t(:pravna_pomoc)
           %p= t(:pravna_pomoc_text)
+        .slide.big-slide.slide4
+          %h3.number 6
+          %h2= t(:nadoknada_stete)
+          %p= t(:nadoknada_stete_text)
+          %h3.number 7
+          %h2= t(:nekaznjavanje)
+          %p= t(:nekaznjavanje_text)
+          %h3.number 8
+          %h2= t(:smestaj)
+          %p= t(:smestaj_text)
+        .slide.big-slide.slide5
+          %h3.number 9
+          %h2= t(:medicinska_pomoc)
+          %p= t(:medicinska_pomoc_text)
+          %h3.number 10
+          %h2= t(:psiholoska_pomoc)
+          %p= t(:psiholoska_pomoc_text)
+          %h3.number 11
+          %h2= t(:reintegracija)
+          %p= t(:reintegracija_text)
+          %h3.number 12
+          %h2= t(:prevodioc)
+          %p= t(:prevodioc_text)
+        .slide.big-slide.slide6
+          .pad &nbsp;
+          %em
+            %p= t(:nijedno_od_prava)
+        .slide.big-slide.slide7
+          %h3.number 13
+          %h2= t(:boravak)
+          %p= t(:boravak_text)
+          %h3.number 14
+          %h2= t(:povratak)
+          %p= t(:povratak_text_1)
+          %p= t(:povratak_text_2)
+
+
+
+
+
+        
   #scroll
     =image_tag("scroll.png")
 

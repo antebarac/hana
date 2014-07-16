@@ -3,6 +3,7 @@ ActiveAdmin.register Article do
   
   form do |f|
     f.inputs do 
+      f.input :locale, :label => 'Jezik', :as => :select, :collection => [ ["Bošnjački", :ba], ["Engleski", :en], ["Hrvatski", :hr], ["Makedonski", :mk], ["Srpski", :sr] ]
       f.input :is_published
       f.input :category
       f.input :title
@@ -25,6 +26,7 @@ ActiveAdmin.register Article do
 
   index do
     selectable_column
+    column :locale
     column :category do |article|
       article.category.name
     end

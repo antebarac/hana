@@ -5,13 +5,14 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   devise_for :users
 
-  get   '/press',     to: 'press#index'
-  get   '/documents', to: 'documents#index'
-  get   '/news/:id',  to: 'vijesti#show'
-  get   '/news',      to: 'vijesti#index'
-  get   '/trgovina',  to: 'trgovina#index'
-  get   '/start',     to: 'start#index'
-  get   '/home',      to: 'home#index'
+  get   '/press',       to: 'press#index'
+  get   '/documents',   to: 'documents#index'
+  get   '/news/:id',    to: 'vijesti#show'
+  get   '/news',        to: 'vijesti#index'
+  get   '/trafficking', to: 'trgovina#index'
+  get   '/start',       to: 'start#index'
+  get   '/home',        to: 'home#index'
+  get   '/about',       to: 'about#index'
 
   root  'start#index'
 end

@@ -13,11 +13,11 @@
               - article_group.each do |article|
                 %li
                   %a{href: "javascript:show_news(#{article.id})"}
-                    - if article.title_image.image?
+                    - if article.title_image && article.title_image.image?
                       =image_tag(article.title_image.url(:thumb))
                     - else
                       .file-type
-                        =image_tag(Icon.for_filename('myfile.jpg'))
+                        = article.title_image ? image_tag(Icon.for_filename('myfile.jpg')) : ""
                     %h1= article.title
           
   #scroll
