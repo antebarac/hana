@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require jquery.ba-throttle-debounce.min
 //= require jquery.simplemodal.min
 //= require jquery-ui.min

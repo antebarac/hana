@@ -4,7 +4,7 @@
   #bkg2.dynamic-background
   #bkg3.dynamic-background
   #bkg4.dynamic-background
-  #hana
+  #hana.hide-on-huge-window
     =image_tag("hana.png")
   #blood
     =image_tag("blood.png")
@@ -16,6 +16,8 @@
       .slide-container.left-pad
         .slide.slide1.centered
           =image_tag('headline.png')
+          #scroll
+            =image_tag("scroll.png")
         .slide.slide2
           %h1= t(:upoznajte_hanu)
           %h1= t(:upoznajte_hanu_text)
@@ -56,22 +58,5 @@
         .slide.slide16.big-slide
           %h1= t(:projekt_podrzavaju)
           %ul.logos
-            %li= link_to image_tag("logo/logo1.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo2.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo3.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo4.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo5.png"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo6.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo7.png"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo8.png"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo9.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo10.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo11.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo12.jpg"), "javascript:void(null)"
-            %li= link_to image_tag("logo/logo13.jpg"), "javascript:void(null)"
-  .gradjani.hide-on-big-window
-    %h2= t(:sto_drustvo_moze)
-    %p= t(:gradjani_text)
-  #scroll
-    =image_tag("scroll.png")
+            =image_tag('logos.png', style: 'width:100%')
 

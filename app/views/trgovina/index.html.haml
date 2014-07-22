@@ -8,6 +8,8 @@
       .slide-container
         .slide.big-slide.slide1
           %p= t(:trgovina_ljudima_text1)
+          #scroll
+            =image_tag("scroll.png")
         .slide.big-slide.slide2
           %p= t(:trgovina_ljudima_text2)
           %p.italic= t(:prava_zrtava)
@@ -52,10 +54,10 @@
           %h3.number 11
           %h2= t(:reintegracija)
           %p= t(:reintegracija_text)
+        .slide.big-slide.slide6
           %h3.number 12
           %h2= t(:prevodioc)
           %p= t(:prevodioc_text)
-        .slide.big-slide.slide6
           .pad &nbsp;
           %em
             %p= t(:nijedno_od_prava)

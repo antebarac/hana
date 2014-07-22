@@ -2,6 +2,7 @@ scroll_up = false
 scroll_down = false
 last_scroll_top = 0
 animating_scroll = false
+gutter = 0
 
 scroll_settings = {
   slide_height: 1000,
@@ -40,6 +41,12 @@ activate_slide = (index, prev_index) ->
   else
     $(".window").removeClass("bigger-window")
     $(".hide-on-big-window").show()
+  #if($(".slide:eq(" + (index - 1) + ")").hasClass("huge-slide"))
+  #  $(".hide-on-huge-window").hide()
+  #  $(".contents").addClass("huge-contents").css("left", "0")
+  #else
+  #  $(".hide-on-huge-window").show()
+  #  $(".contents").removeClass("huge-contents").css("left", 320 + gutter)
   if(index > prev_index)
     show_background("#bkg2") if index == 4
     show_background("#bkg3") if index == 5
@@ -117,6 +124,7 @@ resize = ->
   $(".window .contents, .gradjani, ul.language-picker").css("left", 320 + gutter)
 
 handle_start = ->
+  $("#scroll").show()
   if $(".slide").size() > 0
     $("body").height($(".slide").size() * scroll_settings.slide_height)
   $(window).scroll($.throttle(40, adjust_scroll))
