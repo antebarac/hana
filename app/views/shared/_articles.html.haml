@@ -12,13 +12,15 @@
             %ul.news
               - article_group.each do |article|
                 %li
-                  %a{href: "javascript:show_news(#{article.id})"}
-                    - if article.title_image && article.title_image.image?
+                  - if article.title_image && article.title_image.image?
+                    %a{href: "javascript:show_news(#{article.id})"}
                       =image_tag(article.title_image.url(:thumb))
-                    - else
+                      %h1= article.title
+                  - else
+                    %a{href: article.title_image.url, target: '_blank'}
                       .file-type
-                        = article.title_image ? image_tag(Icon.for_filename('myfile.jpg')) : ""
-                    %h1= article.title
+                        = article.title_image ? image_tag(Icon.for_filename(article.title_image.file.file)) : ""
+                      %h1= article.title
           
   #scroll
     =image_tag("scroll.png")
