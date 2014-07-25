@@ -28,10 +28,10 @@ ActiveAdmin.register Article do
     selectable_column
     column :locale
     column :category do |article|
-      article.category.name
+      article.category.try(:name)
     end
     column :title do |article|
-     link_to article.title, admin_article_path(article)
+     link_to article.title, admin_article_path(article) if article
     end
     column :is_published
     column :created_at
