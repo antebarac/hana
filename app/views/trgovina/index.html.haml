@@ -71,6 +71,8 @@
           %p= t(:povratak_text_2)
         - if(t(:stats))
           .slide.big-slide.slide8
+            %h2= t(:statisticki_podaci)
+            <br/>
             =image_tag ("stats/stat1.#{I18n.locale}.png")
           .slide.big-slide.slide9
             =image_tag ("stats/stat2.#{I18n.locale}.png")
@@ -81,17 +83,17 @@
           .slide.big-slide.slide12            
             %h1= t(:trendovi_u_trgovini)
             - t(:trendovi_u_trgovini_list)[0..1].each do |para|
-              %p= para
+              %p= para.html_safe
           .slide.big-slide.slide13
             - t(:trendovi_u_trgovini_list)[2..3].each do |para|
-              %p= para
+              %p= para.html_safe
           .slide.big-slide.slide14
             - t(:trendovi_u_trgovini_list)[4..5].each do |para|
-              %p= para
+              %p= para.html_safe
           -if t(:trendovi_u_trgovini_list).size() > 6
             .slide.big-slide.slide15
               - t(:trendovi_u_trgovini_list)[6..7].each do |para|
-                %p= para
+                %p= para.html_safe
         - else
           .slide.big-slide.slide8           
             %h1= t(:trendovi_u_trgovini)

@@ -7,7 +7,7 @@
     .contents
       .slide-container
         - slide_counter = 0
-        - articles.in_groups_of(9, false) do |article_group|
+        - articles.in_groups_of(6, false) do |article_group|
           %div{class: "slide slide#{slide_counter += 1}"}
             %ul.news
               - article_group.each do |article|
@@ -17,7 +17,7 @@
                       =image_tag(article.title_image.url(:thumb))
                       %h1= article.title
                   - else
-                    %a{href: article.title_image.url, target: '_blank'}
+                    %a{href: article.title_image.try(:url), target: '_blank'}
                       .file-type
                         = article.title_image ? image_tag(Icon.for_filename(article.title_image.file.file)) : ""
                       %h1= article.title

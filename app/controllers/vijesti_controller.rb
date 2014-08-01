@@ -2,7 +2,7 @@ class VijestiController < ApplicationController
   before_filter :authenticate   
 
   def index
-    @articles = Article.news.published
+    @articles = Article.news_and_press.published
   end
 
   def show

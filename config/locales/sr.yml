@@ -13,7 +13,7 @@ sr:
   nazalost_nikako: Nažalost, uprkos trudu koji je ulagala, nikako nije uspela da ga pronađe.
   u_ocajnickoj_potrazi: U očajničkoj potrazi za poslom javila se na oglas koji je pronašla na internetu. 
   prvi_dan: Prvog dana na poslu su joj uzeli pasoš i pretukli je.
-  iducih_dana: Sledećih 10 dana provela je u mračnom podrumu, a nakon toga su je poslali da radi
+  iducih_dana: Sledećih 10 dana provela je u mračnom podrumu, a nakon toga su je poslali da radi.
   ipak_kad_je_policija: Ipak, kada je policija upala u objekat, Hanu nisu oslobodili već zatvorili.
   kada_su_je_pustili: Kada su je pustili iz pritvora, ostala je sama i nije znala kome da se obrati za pomoć.
   otmicari_pusteni: Ljudi koji su je eksploatisali su pušteni da se brane sa slobode.
@@ -34,7 +34,7 @@ sr:
   privatnost: Privatnost
   privatnost_text: Žrtve trgovine ljudima imaju pravo na zaštitu identiteta i privatnog života, uključujući i isključivanje javnosti iz sudskih postupaka u kojima žrtva učestvuje.
   informiranost: Informisanost
-  informiranost_text: Žrtve trgovine ljudima imaju pravo na zaštitu identiteta i privatnog života, uključujući i isključivanje javnosti iz sudskih postupaka u kojima žrtva učestvuje.
+  informiranost_text: Žrtvama trgovine ljudima blagovremeno moraju biti dostupne informacije vezane za njihov status, prava i relevantne sudske i administrativne postupke.
   fizicka_zastita: Zaštita fizičkog integriteta i bezbednosti
   fizicka_zastita_text: Žrtvama trgovine ljudima garantovano je i pravo na zaštitu fizičkog integriteta i bezbednosti. Policija je dužna da utvrdi da li je bezbednost žrtve ugrožena i da joj, u skladu sa tim, obezbedi sigurnost.
   zastita_svjedoka: Zaštita bezbednosti žrtve kao svedoka tj. oštećenog/e
@@ -49,7 +49,7 @@ sr:
   smestaj: Smeštaj
   smestaj_text: Pravo na smeštaj u skloništu za žrtve trgovine ljudima ili u nekom drugom, alternativnom smeštaju takođe je garantovano žrtvama trgovine ljudima. 
   medicinska_pomoc: Medicinska pomoć
-  medicinska_pomoc_text: Zdravstvene usluge, koje su obuhvaćene obaveznim zdravstvenim osiguranjem, besplatne su za žrtve trgovine ljudima. Ovo pravo odnosi se i na strane strane državljane/ke. 
+  medicinska_pomoc_text: Zdravstvene usluge, koje su obuhvaćene obaveznim zdravstvenim osiguranjem, besplatne su za žrtve trgovine ljudima. Ovo pravo odnosi se i na strane državljane/ke. 
   psiholoska_pomoc: Psihološka pomoć 
   psiholoska_pomoc_text: Žrtve trgovine ljudima imaju pravo na psihološku pomoć u vidu individualne i/ili grupne psihoterapije i savetovanja.
   reintegracija: (Re)integracija i socijalna inkluzija 
@@ -114,16 +114,18 @@ sr:
     - Koalicija „Svi za pravično suđenje“, BJR Makedonija
   kontakt: Kontakt
   kontakt_naziv: ASTRA – Akcija protiv trgovine ljudima
-  kontakt_tel_fax: "tel/fax: +381 11 785 0000"
+  kontakt_tel: "tel: +381 11 785 0000"
   kontakt_email: "e-mail:	<a href='mailto:astra@astra.rs'>astra@astra.rs</a>"
   kontakt_web: "web: <a href='http://www.astra.org.rs'>www.astra.org.rs</a>"
   attachments: "Dokumenti i slike"
   trendovi_u_trgovini: Trendovi u trgovini ljudima u Srbiji
   trendovi_u_trgovini_list:
-    - Među identifikovanim žrtvama preovlađuju domaće državljanke i državljani. Od ukupnog broja žrtava koje je ASTRA identifikovala (jun 2014), 79% su bili državljanke i državljani Srbije. Do kraja 2004. godine većina identifikovanih žrtava bile su strane državljanke, ali se od tada beleži sve veći broj domaćih državljanki/a među identifikovanim žrtvama. Prema podacima ASTRE, kao i prema podacima Službe za koordinaciju zaštite žrtava trgovine ljudima, 2008. i 2009. godine je identifikovano samo 12-15% stranih žrtava trgovine ljudima, dok su 2013. godine domaće državljanke i državljani činili čak 96% identifikovanih žrtava trgovine ljudima. 
-    - Uz to, visoko učešće ima interna trgovina ljudima, koja podrazumeva da se sve faze trgovine ljudima, od vrbovanja, transporta do same eksploatacije odvijaju u okviru granica jedne države. Tako je najčešća destinacija eksploatiacije za žrtve identifikovane u Srbiji upravo ta zemlja. Dok je od 2009. godine kada je prepoznat ovaj trend procenat žrtava eksploatisanih u Srbiji bio oko 50%, u 2013. godini dolazi do skoka na 70%. 
-    - Od 2004. godine uočen je značajan porast broja dece koja se nalaze u lancu trgovine ljudima. Dok je u 2002-2003. godini među identifikovanim žrtvama bilo 10% dece, prošle godine broj maloletnih lica dostigao je 41%. Uprkos tome, u Srbiji još uvek ne postoje posebni specijalizovani programi i mere postupanja sa decom žrtvama trgovine ljudima. Deca dobijaju istu pomoć kao i punoletne žrtve, dele sklonište sa njima i prolaze kroz isti tretman ili se smeštaju u prihvatilišta za zlostavljanu decu, gde ne dobijaju neophodnu specijalizovanu pomoć.
-    - Trgovina ljudima je nesporno rodni problem. Većinu žrtava trgovine ljudima u Srbiji čine žene i devojčice (70% prema podacima ASTRE) izložene seksualnoj eksploataciji. Takođe, žrtve su ponekad izložene višestrukoj eksploataciji (npr. seksualnoj i radnoj eksploataciji ili seksualnoj eksploataciji i prinudi na vršenje krivičnih dela).
-    - Međutim, u Srbiji se beleži porast broja muškaraca među identifikovanim žrtvama (26% u prethodnih 5 i po godina). Tokom prethodne godine naročito su bile izražene masovne, pretežno iregularne migracije srpskih radnika u Rusku Federaciju i zemlje bivšeg Sovjetskog Saveza. Po pravilu se radi o odraslim muškarcima koji postaju žrtve trgovine ljudima u cilju radne eksploatacije, najčešće na gradilištima u inostranstvu. Zbog kulturoloških razloga (patrijarhalno društvo ne ohrabruje muškarce da se prepoznaju i priznaju da su žrtve), načina eksploatacije (eksploatacija u građevinskoj industriji često obuhvata veoma veliki broj žrtava) i nejasnih procedura za identifikaciju, kod trgovine muškarcima se često identifikuje znatno manje žrtava od stvarnog broja oštećenih u konkretnom slučaju.
+    - <em>Među identifikovanim žrtvama preovlađuju domaće državljanke i državljani</em>. Od ukupnog broja žrtava koje je ASTRA identifikovala (jun 2014), 79% su bili državljanke i državljani Srbije. Do kraja 2004. godine većina identifikovanih žrtava bile su strane državljanke, ali se od tada beleži sve veći broj domaćih državljanki/a među identifikovanim žrtvama. Prema podacima ASTRE, kao i prema podacima Službe za koordinaciju zaštite žrtava trgovine ljudima, 2008. i 2009. godine je identifikovano samo 12-15% stranih žrtava trgovine ljudima, dok su 2013. godine domaće državljanke i državljani činili čak 96% identifikovanih žrtava trgovine ljudima. 
+    - Uz to, <em>visoko učešće ima interna trgovina ljudima</em>, koja podrazumeva da se sve faze trgovine ljudima, od vrbovanja, transporta do same eksploatacije odvijaju u okviru granica jedne države. Tako je najčešća destinacija eksploatiacije za žrtve identifikovane u Srbiji upravo ta zemlja. Dok je od 2009. godine kada je prepoznat ovaj trend procenat žrtava eksploatisanih u Srbiji bio oko 50%, u 2013. godini dolazi do skoka na 70%. 
+    - Od 2004. godine uočen je <em>značajan porast broja dece koja se nalaze u lancu</em> trgovine ljudima. Dok je u 2002-2003. godini među identifikovanim žrtvama bilo 10% dece, prošle godine broj maloletnih lica dostigao je 41%. Uprkos tome, u Srbiji još uvek ne postoje posebni specijalizovani programi i mere postupanja sa decom žrtvama trgovine ljudima. Deca dobijaju istu pomoć kao i punoletne žrtve, dele sklonište sa njima i prolaze kroz isti tretman ili se smeštaju u prihvatilišta za zlostavljanu decu, gde ne dobijaju neophodnu specijalizovanu pomoć.
+    - Trgovina ljudima je nesporno rodni problem. <em>Većinu žrtava trgovine ljudima u Srbiji čine žene i devojčice</em> (70% prema podacima ASTRE) izložene seksualnoj eksploataciji. Takođe, žrtve su ponekad izložene višestrukoj eksploataciji (npr. seksualnoj i radnoj eksploataciji ili seksualnoj eksploataciji i prinudi na vršenje krivičnih dela).
+    - Međutim, u Srbiji se beleži <em/>porast broja muškaraca među identifikovanim žrtvama</em> (26% u prethodnih 5 i po godina). Tokom prethodne godine naročito su bile izražene masovne, pretežno iregularne migracije srpskih radnika u Rusku Federaciju i zemlje bivšeg Sovjetskog Saveza. Po pravilu se radi o odraslim muškarcima koji postaju žrtve trgovine ljudima u cilju radne eksploatacije, najčešće na gradilištima u inostranstvu. Zbog kulturoloških razloga (patrijarhalno društvo ne ohrabruje muškarce da se prepoznaju i priznaju da su žrtve), načina eksploatacije (eksploatacija u građevinskoj industriji često obuhvata veoma veliki broj žrtava) i nejasnih procedura za identifikaciju, kod trgovine muškarcima se često identifikuje znatno manje žrtava od stvarnog broja oštećenih u konkretnom slučaju.
     - Osim seksualne i radne eksploatacije, prisutni su, mada u manjoj meri, i ostali oblici eksploatacije žrtava trgovine ljudima – prinudna prošnja, prinudni brak, prinuda na vršenje krivičnih dela, nelegalno usvojenje. 
   stats: on
+  statisticki_podaci: Statistički podaci
+  vesti_i_press: Vesti i press

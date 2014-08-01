@@ -12,8 +12,8 @@ class Article < ActiveRecord::Base
     where(is_published: true)
   }
 
-  scope :news, -> {
-    where(categories: { name: 'news' })
+  scope :news_and_press, -> {
+    where(categories: { name: ['news', 'press'] })
   }
 
   scope :documents, -> {
