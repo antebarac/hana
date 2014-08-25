@@ -84,6 +84,7 @@ nav
     text-align: justify
     height: 73px
     overflow: hidden
+    margin: 0px 0 20px
     li.stretch
       width: 100%
       display: inline-block
@@ -221,6 +222,33 @@ nav
 .slide:not(:first-child)
   top: -1000px
 
+ul.mini-language-picker
+  position: relative
+  top: 10px
+  margin: 0
+  padding: 0
+  width: 922px
+  margin: 0 auto
+  text-align: right
+  li
+    padding-right: 30px
+    display: inline-block
+    a
+      font-size: 11px
+      font-family: 'Bitter'
+      text-transform: uppercase
+      color: #fff
+      text-decoration: none
+      text-align: left
+      display: inline-block
+    a.active
+      color: #f7941d
+    a:hover
+      color: #f7941d
+        cursor: pointer
+  li:last-child
+    padding-right: 0
+
 ul.language-picker
   position: fixed
   z-index: 15
@@ -310,6 +338,11 @@ ul.language-picker
     font-size: 22px
   img
     width: 100%
+  .download
+    text-align: right
+    img
+      width: auto
+      vertical-align: middle
 
 
 .redactor_box
@@ -319,3 +352,4 @@ ul.language-picker
 
 .left-pad
   padding-left: 30px
+

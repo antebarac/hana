@@ -1,3 +1,13 @@
 #everything{style: 'display:none'}
   =render partial: 'shared/tabs', locals: { active_tab: :compensation }
   #bkg1.dynamic-background
+  #hana
+    =image_tag("hana.png")
+  .window.bigger-window
+    .contents.left-pad
+      .slide-container.left-pad
+        .slide.big-slide.slide1
+          %ul.logos
+            =image_tag('logos.png', style: 'width:100%') 
+
+

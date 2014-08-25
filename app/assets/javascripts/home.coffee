@@ -35,16 +35,16 @@ activate_slide = (index, prev_index) ->
       animating_scroll = false
     , 100)
   )
-  if($(".slide:eq(" + (index - 1) + ")").hasClass("big-slide"))
-    setTimeout(->
-      $(".window").addClass("bigger-window")
-      $(".hide-on-big-window").hide()
-    , scroll_settings.animation_speed)
-  else
-    setTimeout(->
-      $(".window").removeClass("bigger-window")
-      $(".hide-on-big-window").show()
-    , scroll_settings.animation_speed)
+  #if($(".slide:eq(" + (index - 1) + ")").hasClass("big-slide"))
+  #  setTimeout(->
+  #    $(".window").addClass("bigger-window")
+  #    $(".hide-on-big-window").hide()
+  #  , scroll_settings.animation_speed)
+  #else
+  #  setTimeout(->
+  #    $(".window").removeClass("bigger-window")
+  #    $(".hide-on-big-window").show()
+  #  , scroll_settings.animation_speed)
   #if($(".slide:eq(" + (index - 1) + ")").hasClass("huge-slide"))
   #  $(".hide-on-huge-window").hide()
   #  $(".contents").addClass("huge-contents").css("left", "0")

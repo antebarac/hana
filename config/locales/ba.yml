@@ -9,7 +9,7 @@ ba:
   gradjani_text: Čak i ako samo sumnjate na slučaj trgovine ljudima, odmah ga prijavite. Upoznajte se s problemom trgovine ljudima. Važno je da razumijete da se u zemljama Balkana, gdje veliki broj stanovnika živi na ivici egzistencije, gdje su visoke stope nezaposlenosti, rada na crno i siromaštva, ljudi često prihvataju poslovne ponude koje nisu provjerili. Štaviše, ponekad je ponude trgovaca ljudima teško razlikovati od regularnih poslovnih ponuda. Žrtva trgovine ljudima može postati svako i ni jedna žrtva nije kriva za situaciju u kojoj se našla! Kao građani društva u kojem je sloboda osnovno pravo i vrijednost, dužni smo da im pomognemo i učinimo njihov oporavak što lakšim i bezbolnijim.
   sto_drustvo_moze: Šta društvo može učiniti da pomogne Hani?
   upoznajte_hanu: Upoznajte Hanu
-  upoznajte_hanu_text: Upoznajte Hanu. Kao i mnogi njeni vršnjaci, Hana je htjela da se osamostali i pronađe posao.
+  upoznajte_hanu_text: Kao i mnogi njeni vršnjaci, Hana je htjela da se osamostali i pronađe posao.
   nazalost_nikako: Nažalost, uprkos trudu koji je ulagala, nikako nije uspjela da ga pronađe.
   u_ocajnickoj_potrazi: U očajničkoj potrazi za poslom javila se na oglas koji je pronašla na internetu. 
   prvi_dan: Prvog dana na poslu uzeli su joj pasoš i pretukli je.
@@ -112,20 +112,20 @@ ba:
     - Pravosudna akademija, Srbija
     - Koalicija „Svi za pravično suđenje“, BJR Makedonija
   kontakt: Kontakt
-  kontakt_naziv: ASTRA – Akcija protiv trgovine ljudima
-  kontakt_tel: "tel: +381 11 785 0000"
-  kontakt_email: "e-mail:	<a href='mailto:astra@astra.rs'>astra@astra.rs</a>"
-  kontakt_web: "web: <a href='http://www.astra.org.rs'>www.astra.org.rs</a>"
+  kontakt_naziv: Međunarodni forum solidarnosti – EMMAUS
+  kontakt_tel: "tel: +387 33 263 385; fax: +387 33 263 386"
+  kontakt_email: "e-mail:	<a href='mailto:sarajevo@mfs-emmaus.ba'>sarajevo@mfs-emmaus.ba</a>"
+  kontakt_web: "web: <a href='http://www.sigurnodijete.ba'>www.sigurnodijete.ba</a>, <a href='http://www.bihat.ba'>www.bihat.ba</a>"
   attachments: "Dokumenti i slike"
   trendovi_u_trgovini: Trendovi u trgovanju ljudima u Bosni i Hercegovini
   trendovi_u_trgovini_list:
-    - Među potencijalnim i identificiranim žrtvama preovlađuju domaće državljanke i državljani. Od ukupnog broja žrtava kojima je Međunarodni forum solidarnosti – EMMAUS (MFS-EMMAUS) pružio asistenciju u skloništu za žrtve trgovine ljudima do kraja 2006. godine većina žrtava bile su strane državljanke, ali se od tada bilježi sve veći broj domaćih državljanki/a među potencijalnim i identificiranim žrtvama.
+    - <em>Među potencijalnim i identificiranim žrtvama preovlađuju domaće državljanke i državljani.</em> Od ukupnog broja žrtava kojima je Međunarodni forum solidarnosti – EMMAUS (MFS-EMMAUS) pružio asistenciju u skloništu za žrtve trgovine ljudima do kraja 2006. godine većina žrtava bile su strane državljanke, ali se od tada bilježi sve veći broj domaćih državljanki/a među potencijalnim i identificiranim žrtvama.
     - Prema podacima MFS-EMMAUS-a, kao i Ministarstva sigurnosti Bosne i Hercegovine/Odsjek za borbu protiv trgovine ljudima, 2008. i 2010. godine je identificirano samo 6-16% stranih žrtava trgovine ljudima, dok su 2013. godine domaće državljanke i državljani činili čak 88% identificiranih žrtava trgovine ljudima. 
-    - Pored navedenog, u porastu je interna trgovina ljudima, koja podrazumijeva da se sve faze trgovine ljudima, od vrbovanja, transporta do same eksploatacije odvijaju u okviru granica jedne države. Tako je najčešća destinacija eksploatacije za žrtve identificirane u Bosni i Hercegovini upravo ta zemlja. Dok je 2008. godine kada je prepoznat ovaj trend procenat žrtava eksploatisanih u Bosni i Hercegovini bio oko 60%, od 2010. godine za gotovo 100% žrtava trgovine ljudima asistiranim u skloništu MFS-EMMAUS-a zemlja eksploatacije je Bosna i Hercegovina. 
-    - Od 2008. godine uočen je značajan porast broja djece koja se nalaze u lancu trgovine ljudima. Dok je u 2002-2003. godini među potencijalnim i identificiranim žrtvama trgovine ljudima asistiranim u sklonišu MFS-EMMAUS-a bilo 4-10% djece, 2012. godine broj maloljetnih osoba dostigao je 71%. Uprkos tome, u Bosni i Hercegovini još uvijek ne postoje u dovoljnoj mjeri posebni specijalizirani programi i mjere zaštite djece žrtava trgovine ljudima.
-    - Trgovina ljudima je nesporno rodni problem. Većinu žrtava trgovine ljudima u Bosni i Hercegovini čine žene i djevojčice (više od 93% prema podacima MFS-EMMAUS-a) izložene seksualnoj eksploataciji. Također, žrtve su ponekad izložene višestrukoj eksploataciji (npr. seksualnoj i radnoj eksploataciji ili seksualnoj eksploataciji i prinudi na vršenje krivičnih djela).
-    - Međutim, u Bosni i Hercegovini se bilježi porast broja muškaraca među potencijalnim i identificiranim žrtvama trgovine ljudima (20% u 2011. godini, te 31,5% u 2013. godini). Tokom 2013. godine naročito je bila izražena eksploatacija muškaraca u svrhu prisilnog rada i prosjačenja. U nešto većem broju se radi o maloljetnim muškarcima koji postaju žrtve trgovine ljudima u cilju radne eksploatacije, najčešće putem prinudne prošnje. 
-    - Osim seksualne i radne eksploatacije, prisutni su, mada u manjoj mjeri, i ostali oblici eksploatacije žrtava trgovine ljudima – prinudni brak, te prinuda na vršenje krivičnih djela.
-  stats: off
+    - Pored navedenog, u porastu je <em>interna trgovina ljudima</em>, koja podrazumijeva da se sve faze trgovine ljudima, od vrbovanja, transporta do same eksploatacije odvijaju u okviru granica jedne države. Tako je najčešća destinacija eksploatacije za žrtve identificirane u Bosni i Hercegovini upravo ta zemlja. Dok je 2008. godine kada je prepoznat ovaj trend procenat žrtava eksploatisanih u Bosni i Hercegovini bio oko 60%, od 2010. godine za gotovo 100% žrtava trgovine ljudima asistiranim u skloništu MFS-EMMAUS-a zemlja eksploatacije je Bosna i Hercegovina. 
+    - Od 2008. godine uočen je značajan <em>porast broja djece koja se nalaze u lancu trgovine ljudima</em>. Dok je u 2002-2003. godini među potencijalnim i identificiranim žrtvama trgovine ljudima asistiranim u sklonišu MFS-EMMAUS-a bilo 4-10% djece, 2012. godine broj maloljetnih osoba dostigao je 71%. Uprkos tome, u Bosni i Hercegovini još uvijek ne postoje u dovoljnoj mjeri posebni specijalizirani programi i mjere zaštite djece žrtava trgovine ljudima.
+    - Trgovina ljudima je nesporno rodni problem. <em>Većinu žrtava trgovine ljudima u Bosni i Hercegovini čine žene i djevojčice</em> (više od 93% prema podacima MFS-EMMAUS-a) <em>izložene seksualnoj eksploataciji</em>. Također, žrtve su ponekad izložene višestrukoj eksploataciji (npr. seksualnoj i radnoj eksploataciji ili seksualnoj eksploataciji i prinudi na vršenje krivičnih djela).
+    - Međutim, u Bosni i Hercegovini se bilježi porast broja muškaraca među potencijalnim i identificiranim žrtvama trgovine ljudima (20% u 2011. godini, te 31,5% u 2013. godini). Tokom 2013. godine naročito je bila izražena eksploatacija muškaraca u svrhu prisilnog rada i prosjačenja. U nešto većem broju se radi o <em>maloljetnim muškarcima koji postaju žrtve trgovine ljudima u cilju radne eksploatacije</em>, najčešće putem prinudne prošnje. 
+    - Osim seksualne i radne eksploatacije, <em>prisutni su, mada u manjoj mjeri, i ostali oblici eksploatacije</em> žrtava trgovine ljudima – prinudni brak, te prinuda na vršenje krivičnih djela.
+  stats: 3
   statisticki_podaci: Statistički podaci
 

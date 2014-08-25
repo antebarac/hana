@@ -1,4 +1,15 @@
 .center-fixed
+  %ul.mini-language-picker
+    %li
+      %a{href: '?locale=ba', class: "#{I18n.locale == :ba ? 'active' : ''}"} BIH
+    %li
+      %a{href: '?locale=en', class: "#{I18n.locale == :en ? 'active' : ''}"} ENG
+    %li
+      %a{href: '?locale=hr', class: "#{I18n.locale == :hr ? 'active' : ''}"} HRV
+    %li
+      %a{href: '?locale=mk', class: "#{I18n.locale == :mk ? 'active' : ''}"} MAK
+    %li
+      %a{href: '?locale=sr', class: "#{I18n.locale == :sr ? 'active' : ''}"} SRB
   %nav
     %ul
       %li

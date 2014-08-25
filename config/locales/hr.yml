@@ -9,7 +9,7 @@ hr:
   gradjani_text: Čak i ako samo sumnjate na slučaj trgovanja ljudima odmah ga prijavite. Upoznajte se s problemom trgovanja ljudima. Važno je da razumijete da u zemljama Balkana, gdje veliki broj stanovnika živi na rubu egzistencije, gdje su visoke stope nezaposlenosti, rada na crno i siromaštva, ljudi često prihvaćaju poslovne ponude koje nisu provjerili. Štoviše, ponekad je ponude trgovaca ljudima teško razlikovati od regularnih poslovnih ponuda. Žrtva trgovanja ljudima može postati svatko i ni jedna žrtva nije kriva za situaciju u kojoj se našla! Kao građani društva u kojem je sloboda osnovno pravo i vrijednost, dužni smo im pomoći i učiniti njihov oporavak što lakšim i bezbolnijim.
   sto_drustvo_moze: Što društvo može učiniti da pomogne Hani?
   upoznajte_hanu: Upoznajte Hanu
-  upoznajte_hanu_text: Upoznajte Hanu. Kao i mnogi njeni vršnjaci, Hana se htjela osamostaliti i pronaći posao.
+  upoznajte_hanu_text: Kao i mnogi njeni vršnjaci, Hana se htjela osamostaliti i pronaći posao.
   nazalost_nikako: Nažalost, usprkos trudu koji je ulagala, nikako ga nije uspijela pronaći.
   u_ocajnickoj_potrazi: U očajničkoj potrazi za poslom javila se na oglas koji je pronašla na internetu. 
   prvi_dan: Prvog dana na poslu oduzeli su joj putovnicu i pretukli je.
@@ -61,7 +61,7 @@ hr:
   boravak_text: Nadležna policijska uprava može odobriti privremeni boravak iz humanitarnih razloga žrtvama koje nisu domaći državljani. Privremeni boravak se odobrava u trajanju od tri mjeseca bez ikakvih drugih uvijeta, tj. šest mjeseci ili godinu dana ukoliko žrtva odluči sarađivati s policijom i pravosudnim tijelima u kaznenom progonu trgovca. Privremeni boravak se može produžavati ukoliko i dalje postoje razlozi za njegovo odobrenje. Posebno je važno da odobrenje privremenog boravka žrtvama omogućuje slobodu kretanja i rada u zemlji boravka.  
   povratak: Povratak (repatrijacija) 
   povratak_text_1: U slučaju da se žrtva želi vratiti u zemlju porijekla ili zemlju u kojoj je boravila prije ulaska u zemlju u kojoj je identificirana, tijela državne vlasti su dužna omogućiti joj odlazak bez nepotrebnog ili neopravdanog odgađanja i vodeći računa o njenoj sigurnosti. 
-  povratak_text_1: Ukoliko nema odgovarajuću dokumentaciju za povratak, njena zemlja porijekla joj je dužna izdati svu potrebnu dokumentaciju. 
+  povratak_text_2: Ukoliko nema odgovarajuću dokumentaciju za povratak, njena zemlja porijekla joj je dužna izdati svu potrebnu dokumentaciju. 
   projekat_realizuju: "Projekat provode:"
   projekat_realizuju_list: 
     - ASTRA – Akcija protiv trgovine ljudima, Srbija
@@ -113,10 +113,10 @@ hr:
     - Pravosudna akademija, Srbija
     - Koalicija „Svi za pravično suđenje“, BJR Makedonija
   kontakt: Kontakt
-  kontakt_naziv: ASTRA – Akcija protiv trgovine ljudima
-  kontakt_tel: "tel: +381 11 785 0000"
-  kontakt_email: "e-mail:	<a href='mailto:astra@astra.rs'>astra@astra.rs</a>"
-  kontakt_web: "web: <a href='http://www.astra.org.rs'>www.astra.org.rs</a>"
+  kontakt_naziv: PARTNERSTVO ZA DRUŠTVENI RAZVOJ
+  kontakt_tel: "tel: +385 1 6055 668, fax: +385 1 6055 669"
+  kontakt_email: "e-mail:	<a href='mailto:info@psd.hr'>info@psd.hr</a>"
+  kontakt_web: "web: <a href='http:/www.psd.hr'>www.psd.hr</a>"
   attachments: "Dokumenti i slike"
   trendovi_u_trgovini: Trendovi u trgovanju ljudima u Hrvatskoj
   trendovi_u_trgovini_list:
@@ -126,5 +126,5 @@ hr:
     - Proces identifikacije žrtava nije transparentan i još uvijek ovisi o volji državnog aparata, odnosno političkoj volji i javnim politikama koje u svom fokusu nemaju primarnu zaštitu žrtava, već se vode, za državu „većim” interesom čuvanja sigurnosti, odnosno kontrole migracijskih i socijalnih politika.
     - Ne postoji adekvatna neovisna kontrola sustava identifikacije, svi akteri koji izvještavaju o procesu identifikacije žrtava, ujedno su i akteri koji sudjeluju u aparatu sveobuhvatne podrške žrtvama zajedno s državom i izravno ovise o financiranju od strane države. Kompenzacija žrtvama trgovanja ljudima još uvijek je potpuna teoretska, pravna i praktična nepoznanica.
     - Reciprocitet procesuiranja kaznenih djela trgovanja ljudima, u odnosu na djela koja se inače povezuju s trgovanjem ljudima  (npr. medjunarodna prostitucija) još uvijek nije na zadovoljavajućoj razini. Konceptualno, država još uvijek nije zauzela stratešku poziciju  spram trgovanja ljudima koja bi se kvalitetno, dugoročno i analitički bavila trendovima i fenomenima povezanim s ovom tematikom.
-  stats: off
+  stats: 2
   statisticki_podaci: Statistički podaci

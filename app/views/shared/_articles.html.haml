@@ -17,7 +17,7 @@
                       =image_tag(article.title_image.url(:thumb))
                       %h1= article.title
                   - else
-                    %a{href: article.title_image.try(:url), target: '_blank'}
+                    %a{href: "javascript:show_news(#{article.id})"}
                       .file-type
                         = article.title_image ? image_tag(Icon.for_filename(article.title_image.file.file)) : ""
                       %h1= article.title
