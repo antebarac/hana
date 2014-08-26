@@ -5,8 +5,16 @@
   - if @article.title_image && !@article.title_image.image?
     .download
       =t(:download)
-      %a{href: @article.title_image.try(:url), target: '_blank'}
-        =image_tag(Icon.for_filename(".pdf"))
+      %table{width: '300px'}
+        - @article.attachments.each do |attachment|
+          - if attachment.image.file
+            %tr
+              %td{width: '50px'}
+                %a{href: attachment.try(:url), target: '_blank'}
+                  =image_tag(Icon.for_filename(attachment.image.try(:file).try(:file) || ""))
+              %td
+                %a{href: attachment.try(:url), target: '_blank'}
+                  =attachment.title
 
 
     
