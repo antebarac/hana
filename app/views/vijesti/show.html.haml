@@ -2,10 +2,10 @@
   %h2= I18n.l @article.created_at.to_date, format: :default
   %h1= @article.title 
   =@article.body.html_safe
-  - if article.title_image && !article.title_image.image?
+  - if @article.title_image && !@article.title_image.image?
     .download
       =t(:download)
-      %a{href: article.title_image.try(:url), target: '_blank'}
+      %a{href: @article.title_image.try(:url), target: '_blank'}
         =image_tag(Icon.for_filename(".pdf"))
 
 
