@@ -1,3 +1,15 @@
+:coffeescript
+  $ ->
+    $("nav ul li:eq(1)").mouseover(->
+      $("ul.submenu").css("margin-left", -$("nav ul li:eq(1)").width())
+      $("ul.submenu").css("visibility", "visible")
+    )
+    $("nav ul li:eq(1)").mouseout(->
+      $("ul.submenu").css("visibility", "hidden")
+    )
+    
+
+
 .center-fixed
   %ul.mini-language-picker
     %li
@@ -16,6 +28,16 @@
         %a{href: '/home', class: "#{active_tab == :home ? 'active' : ''}"}= t(:home)
       %li
         %a{href: '/trafficking', class: "#{active_tab == :trafficking ? 'active' : ''}"}= t(:trgovina_ljudima)
+        %ul.submenu
+          %li
+            %a{href: '/trafficking#definicija', 'data-slide' => '1'}= t(:definicija)
+          %li
+            %a{href: '/trafficking#prava_zrtava', 'data-slide' => '2'}= t(:prava_zrtava_x)
+          %li
+            %a{href: '/trafficking#statisticki_podaci', 'data-slide' => '3'}= t(:statisticki_podaci)
+          %li
+            %a{href: '/trafficking#trendovi_u', 'data-slide' => '4'}= t(:trendovi_u)
+
       %li
         %a{href: '/about', class: "#{active_tab == :about ? 'active' : ''}"}= t(:o_projektu)
       %li

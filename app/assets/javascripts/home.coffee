@@ -29,6 +29,9 @@ show_background = (id)->
   else
     $(id).fadeIn()
 
+
+
+
 activate_slide = (index, prev_index) ->
   $("html, body").animate({scrollTop: (index - 1) * scroll_settings.slide_height}, scroll_settings.animation_speed, ->
     setTimeout(->
@@ -51,6 +54,7 @@ activate_slide = (index, prev_index) ->
   #else
   #  $(".hide-on-huge-window").show()
   #  $(".contents").removeClass("huge-contents").css("left", 320 + gutter)
+  return if prev_index == -1
   if(index > prev_index)
     show_background("#bkg2") if index == 4
     show_background("#bkg3") if index == 5
@@ -81,10 +85,6 @@ adjust_scroll = (e)->
   return if scroll_top > ($("body").height() - scroll_settings.slide_height)
   scroll_up = scroll_top < last_scroll_top
   scroll_down = scroll_top > last_scroll_top
-  console.log({
-    scroll_top: scroll_top,
-    last_scroll_top: last_scroll_top
-  })
   last_scroll_top = scroll_top
 
   slide_count = $(".slide-container .slide").size()
@@ -98,10 +98,6 @@ adjust_scroll = (e)->
     scroll_up = false
     return false
   visible_offset = scroll_top - ((visible_slide_index - 1) * scroll_settings.slide_height)
-  console.log({
-    visible_slide_index: visible_slide_index,
-    scroll_down: scroll_down
-  })
   if scroll_down 
     animating_scroll = true
     activate_slide(visible_slide_index + 1, visible_slide_index)
@@ -126,6 +122,7 @@ resize = ->
   $(".gradjani").css("margin-top", (window_height - 750) /2)
   $("ul.language-picker").css("margin-top", (window_height - 750) /2 + 150)
   $(".window .contents, .gradjani, ul.language-picker").css("left", 320 + gutter)
+  $(".window .contents").css("left", 220 + gutter)
 
 handle_start = ->
   $("#scroll").show()
@@ -140,12 +137,29 @@ page_load = ->
   show_loaded()
   handle_start()
 
+goto_href = (href) ->
+  index = $("a[name=" + href + "]").closest(".slide").index()
+  return false if index == -1
+  animating_scroll = true
+  $("html, body").animate({scrollTop: (index) * scroll_settings.slide_height}, scroll_settings.animation_speed, ->
+    setTimeout(->
+      animating_scroll = false
+    ,100)
+  )
+  return true
+
 ready = ->
   hide_initial()
   $(window).load(->
     show_loaded()
   )
   handle_start()
+  anchor = window.location.hash.substring(1)
+  if(anchor != null && anchor != "")
+    goto_href(anchor)
+  $("ul.submenu li a").click((e)->
+    e.preventDefault() if goto_href($(this).attr("href").split('#')[1])
+  )
 
 
 $(document).ready(ready)

@@ -5,8 +5,9 @@
     =image_tag("hana.png")
   .window.bigger-window
     .contents
-      .slide-container
+      .slide-container.big-slides
         .slide.big-slide.slide1
+          %a{name: 'definicija'}
           %p= t(:trgovina_ljudima_text1)
           #scroll
             =image_tag("scroll.png")
@@ -14,6 +15,7 @@
           %p= t(:trgovina_ljudima_text2)
           %p.italic= t(:prava_zrtava)
 
+          %a{name: 'prava_zrtava'}
           %h3.number 1
           %h2= t(:privatnost)
           %p= t(:privatnost_text) 
@@ -74,6 +76,7 @@
           - t(:stats).times do |i|
             .slide.big-slide{class: "slide#{slide_index}"}
               - if i == 0
+                %a{name: 'statisticki_podaci'} &nbsp;
                 %h2= t(:statisticki_podaci)
                 <br/>
               - slide_index += 1
@@ -81,6 +84,7 @@
 
         .slide.big-slide{class: "slide#{slide_index}"}        
           - slide_index += 1
+          %a{name: 'trendovi_u'}
           %h1= t(:trendovi_u_trgovini)
           - t(:trendovi_u_trgovini_list)[0..1].each do |para|
             %p= para.html_safe

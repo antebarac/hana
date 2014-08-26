@@ -13,8 +13,8 @@
   #bkg5.dynamic-background
   .window
     .contents.left-pad
-      .slide-container.left-pad
-        .slide.slide1.centered
+      .slide-container.left-pad.small-slides
+        .slide.slide1.small-centered
           =image_tag('headline.png')
           #scroll
             =image_tag("scroll.png")
@@ -55,8 +55,9 @@
         .slide.slide15.big-slide
           %h1= t(:sto_drustvo_moze)
           %p= t(:gradjani_text)
-        .slide.slide16.centered
-          =image_tag('headline.png')
+        .slide.slide16.small-centered
+          %h1
+            =image_tag('headline.png')
         .slide.slide17.big-slide
           %ul.logos
             =image_tag('logos.png', style: 'width:100%')
