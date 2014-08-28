@@ -15,7 +15,7 @@
     .contents.left-pad
       .slide-container.left-pad.small-slides
         .slide.slide1.small-centered
-          =image_tag('headline.png')
+          =image_tag("headline.#{I18n.locale}.png")
           #scroll
             =image_tag("scroll.png")
         .slide.slide2
@@ -57,7 +57,7 @@
           %p= t(:gradjani_text)
         .slide.slide16.small-centered
           %h1
-            =image_tag('headline.png')
+            =image_tag("headline.#{I18n.locale}.png")
         .slide.slide17.big-slide
           %ul.logos
             =image_tag("logos.#{I18n.locale}.png", style: 'width:100%')
