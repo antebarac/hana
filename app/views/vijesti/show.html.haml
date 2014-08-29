@@ -5,7 +5,7 @@
   - if @article.attachments.select{|a| !a.is_main}.size > 0
     .download
       =t(:download)
-      %table{width: '300px'}
+      %table
         - @article.attachments.each do |attachment|
           - if attachment.image.file && !attachment.is_main
             %tr
