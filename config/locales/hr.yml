@@ -62,7 +62,7 @@ hr:
   povratak: Povratak (repatrijacija) 
   povratak_text_1: U slučaju da se žrtva želi vratiti u zemlju porijekla ili zemlju u kojoj je boravila prije ulaska u zemlju u kojoj je identificirana, tijela državne vlasti su dužna omogućiti joj odlazak bez nepotrebnog ili neopravdanog odgađanja i vodeći računa o njenoj sigurnosti. 
   povratak_text_2: Ukoliko nema odgovarajuću dokumentaciju za povratak, njena zemlja porijekla joj je dužna izdati svu potrebnu dokumentaciju. 
-  projekat_realizuju: "Projekat provode:"
+  projekat_realizuju: "Projekt provode:"
   projekat_realizuju_list: 
     - ASTRA – Akcija protiv trgovine ljudima, Srbija
     - PSD – Partnerstvo za društveni razvoj, Hrvatska
@@ -70,8 +70,8 @@ hr:
     - MFS Emmaus – Međunarodni forum solidarnosti, Bosna i Hercegovina
     - ALC – Accompagnement, Lieux  d’Accueil, Carrefour educatif et social, Francuska
     - CCEM – Committe Contre L’Esclavage Moderne, Francuska
-    - NHC – Netherlands Helsinki Committee, Holandija
-  projekat_finansira: "Projekat financira:"
+    - NHC – Netherlands Helsinki Committee, Nizozemska 
+  projekat_finansira: "Projekt financira:"
   projekat_finansira_text: Europskа unijа u okviru IPA programa – Civil Society Facility Framework Partnership Agreements
   projekat_podrzavaju_list:  
     - Republika Francuska

@@ -112,10 +112,10 @@ mk:
     - НВО Sветот на зборови, Србија 
     - Судска академија на Србија
   kontakt: Контакт
-  kontakt_naziv: ASTRA – Akcija protiv trgovine ljudima
-  kontakt_tel: "tel: +381 11 785 0000"
-  kontakt_email: "e-mail:	<a href='mailto:astra@astra.rs'>astra@astra.rs</a>"
-  kontakt_web: "web: <a href='http://www.astra.org.rs'>www.astra.org.rs</a><br/><br/>Отворена Порта/Ла Страда<br/>Тел/фах: +3892700107<br/><a href='mailtolastrada@lastrada.org.mk<br'>lastrada@lastrada.org.mk<br/><a href='http://www.lastrada.org.mk'>www.lastrada.org.mk</a><br/>"
+  kontakt_naziv: Отворена Порта/Ла Страда
+  kontakt_tel: "Тел/фах: +3892700107"
+  kontakt_email: "<a href='mailto:lastrada@lastrada.org.mk'>lastrada@lastrada.org.mk</a>"
+  kontakt_web: "<a href='http://www.lastrada.org.mk'>www.lastrada.org.mk</a>"
   attachments: "Dokumenti i slike"
   trendovi_u_trgovini: Трговија со луѓе во Западен Балкан
   trendovi_u_trgovini_list:
