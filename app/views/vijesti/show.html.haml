@@ -2,12 +2,12 @@
   %h2= I18n.l @article.created_at.to_date, format: :default
   %h1= @article.title 
   =@article.body.html_safe
-  - if @article.title_image && !@article.title_image.image?
+  - if @article.attachments.select{|a| !a.is_main}.size > 0
     .download
       =t(:download)
       %table{width: '300px'}
         - @article.attachments.each do |attachment|
-          - if attachment.image.file
+          - if attachment.image.file && !attachment.is_main
             %tr
               %td{width: '50px'}
                 %a{href: attachment.image.try(:url), target: '_blank'}
