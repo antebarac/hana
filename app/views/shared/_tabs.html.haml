@@ -1,11 +1,11 @@
 :coffeescript
   $ ->
-    $("nav ul li:eq(1)").mouseover(->
-      $("ul.submenu").css("margin-left", -$("nav ul li:eq(1)").width())
-      $("ul.submenu").css("visibility", "visible")
+    $("nav ul li").mouseover(->
+      $(this).find("ul.submenu").css("margin-left", -$(this).width())
+      $(this).find("ul.submenu").css("visibility", "visible")
     )
-    $("nav ul li:eq(1)").mouseout(->
-      $("ul.submenu").css("visibility", "hidden")
+    $("nav ul li").mouseout(->
+      $(this).find("ul.submenu").css("visibility", "hidden")
     )
     
 
@@ -26,6 +26,11 @@
     %ul
       %li
         %a{href: '/home', class: "#{active_tab == :home ? 'active' : ''}"}= t(:home)
+        %ul.submenu
+          %li
+            %a{href: '/home#meet'}= t(:upoznajte_hanu)
+          %li
+            %a{href: '/home#society'}= t(:sto_drustvo_moze)
       %li
         %a{href: '/trafficking', class: "#{active_tab == :trafficking ? 'active' : ''}"}= t(:trgovina_ljudima)
         %ul.submenu
@@ -40,6 +45,19 @@
 
       %li
         %a{href: '/about', class: "#{active_tab == :about ? 'active' : ''}"}= t(:o_projektu)
+        %ul.submenu
+          %li
+            %a{href: '/about#ban'}= 'Balkans ACT Now!'
+          %li
+            %a{href: '/about#goals'}= t(:ciljevi_projekta)
+          %li
+            %a{href: '/about#activities'}= t(:projektne_aktivnosti)
+          %li
+            %a{href: '/about#results'}= t(:rezultati)
+          %li
+            %a{href: '/about#associates'}= t(:suradnici)
+          %li
+            %a{href: '/about#contact'}= t(:kontakt)
       %li
         %a{href: '/compensation', class: "#{active_tab == :compensation ? 'active' : ''}"}= t(:o_kompenzaciji)
       %li
