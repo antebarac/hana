@@ -33,4 +33,12 @@ class Article < ActiveRecord::Base
       nil
     end
   end
+
+  def first_non_title
+    if attachments.where(is_main: false).size > 0
+      attachments.where(is_main: false).first.image
+    else
+      nil
+    end
+  end
 end

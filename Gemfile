@@ -23,6 +23,8 @@ gem 'i18n'
 gem 'rails-i18n', '~> 4.0.0'
 gem 'redactor-rails'
 gem 'rails-file-icons'
+gem 'yomu'
+gem 'redcarpet'
 
 group :development do
   gem 'better_errors'

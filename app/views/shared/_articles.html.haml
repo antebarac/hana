@@ -19,7 +19,7 @@
                   - else
                     %a{href: "javascript:show_news(#{article.id})"}
                       .file-type
-                        = article.title_image ? image_tag(Icon.for_filename(article.title_image.file.file)) : ""
+                        = article.first_non_title ? preview_text(article.first_non_title.file.file) : ""                    
                       %h1= article.title
         .slide{class: "slide#{slide_counter + 1}"}
           %ul.logos
