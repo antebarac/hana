@@ -18,8 +18,7 @@
                       %h1= article.title
                   - else
                     %a{href: "javascript:show_news(#{article.id})"}
-                      .file-type
-                        = article.first_non_title ? preview_text(article.first_non_title.file.file) : ""                    
+                      =image_tag("bact.jpg", width: '100%')                  
                       %h1= article.title
         .slide{class: "slide#{slide_counter + 1}"}
           %ul.logos
