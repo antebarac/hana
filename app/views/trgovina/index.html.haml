@@ -74,11 +74,27 @@
         - slide_index = 8
         - if(t(:stats) > 0)
           - t(:stats).times do |i|
+
             .slide.big-slide{class: "slide#{slide_index}"}
               - if i == 0
                 %a{name: 'statisticki_podaci'} &nbsp;
                 %h2= t(:statisticki_podaci)
                 <br/>
+
+              - if I18n.locale.to_sym == :en
+                - if i == 0
+                  %h2 Serbia
+                  %br
+                - if i == 3
+                  %h2 Croatia
+                  %br
+                - if i == 5
+                  %h2 Bosnia and Herzegovina
+                  %br
+                - if i == 8
+                  %h2 Macedonia
+                  %br
+
               - slide_index += 1
               =image_tag ("stats/stat#{i + 1}.#{I18n.locale}.png")
 
