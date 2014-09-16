@@ -28,7 +28,7 @@ module Hana
     config.i18n.default_locale = :hr
     config.i18n.available_locales = [:hr, :en, :sr, :ba, :mk]
     config.assets.paths << "#{config.root}/app/assets/fonts"
-    config.assets.precompile += %w( .svg .eot .woff .ttf .otf redactor-rails.css redactor-rails.js fileicons/*)
+    config.assets.precompile += %w( .svg .eot .woff .ttf .otf redactor-rails.css redactor-rails.js fileicons/* redactor-rails/index.css redactor-rails/index.js)
 
   end
 end

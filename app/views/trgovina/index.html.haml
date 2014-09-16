@@ -117,6 +117,13 @@
             - slide_index += 1
             - t(:trendovi_u_trgovini_list)[6..7].each do |para|
               %p= para.html_safe
+        -if I18n.locale == :en
+          - t(:mk_trends).each_with_index do |text, index|
+            .slide.big-slide{class: "slide#{slide_index}"}
+              - slide_index += 1
+              - if index == 0
+                %h1= t(:mk_trends_title) 
+              %p= text.html_safe
 
         .slide.big-slide{class: "slide#{slide_index}"}
           %ul.logos

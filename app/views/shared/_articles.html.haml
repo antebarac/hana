@@ -13,11 +13,11 @@
               - article_group.each do |article|
                 %li
                   - if article.title_image && article.title_image.image?
-                    %a{href: "javascript:show_news(#{article.id})"}
+                    %a{href: 'javascript:void(null)', onclick:"show_news(#{article.id})"}
                       =image_tag(article.title_image.url(:thumb))
                       %h1= article.title
                   - else
-                    %a{href: "javascript:show_news(#{article.id})"}
+                    %a{href: 'javascript:void(null)', onclick:"show_news(#{article.id})"}
                       =image_tag("bact.jpg", width: '100%')                  
                       %h1= article.title
         .slide{class: "slide#{slide_counter + 1}"}

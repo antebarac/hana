@@ -76,6 +76,7 @@ activate_slide = (index, prev_index) ->
 
 
 adjust_scroll = (e)->
+  return if $("#simplemodal-data").is(":visible")
   window_height = $(window).height()
   window_height = 750 if window_height < 750
   size_offset = 0
