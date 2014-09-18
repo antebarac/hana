@@ -110,6 +110,7 @@ resize = ->
   gutter = ($(window).width() - 1140)/2
   gutter = 0 if gutter < 0
   window_height = $(window).height()
+  $(".logos img").css("max-height", 0.7 * window_height).css("width", "auto").css("margin", "0 auto")
   window_height = 750 if window_height < 750
   window_width = $(window).width()
   window_width = 940 if window_width < 940
