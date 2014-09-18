@@ -40,8 +40,18 @@
             %a{href: '/trafficking#prava_zrtava', 'data-slide' => '2'}= t(:prava_zrtava_x)
           %li
             %a{href: '/trafficking#statisticki_podaci', 'data-slide' => '3'}= t(:statisticki_podaci)
-          %li
-            %a{href: '/trafficking#trendovi_u', 'data-slide' => '4'}= t(:trendovi_u)
+          - if I18n.locale == :en
+            %li
+              %a{href: '/trafficking#trendovi_u_sr', 'data-slide' => '4'} Human Trafficking in Serbia
+            %li
+              %a{href: '/trafficking#trendovi_u_mk', 'data-slide' => '4'} Human Trafficking in Macedonia
+            %li
+              %a{href: '/trafficking#trendovi_u_ba', 'data-slide' => '4'} Human Trafficking in Bosnia and Herzegovina
+            %li
+              %a{href: '/trafficking#trendovi_u_hr', 'data-slide' => '4'} Human Trafficking in Croatia
+          -else
+            %li
+              %a{href: '/trafficking#trendovi_u', 'data-slide' => '4'}= t(:trendovi_u)
 
       %li
         %a{href: '/about', class: "#{active_tab == :about ? 'active' : ''}"}= t(:o_projektu)

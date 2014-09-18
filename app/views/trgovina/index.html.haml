@@ -101,6 +101,7 @@
         .slide.big-slide{class: "slide#{slide_index}"}        
           - slide_index += 1
           %a{name: 'trendovi_u'}
+          %a{name: 'trendovi_u_sr'}
           %h1= t(:trendovi_u_trgovini)
           - t(:trendovi_u_trgovini_list)[0..1].each do |para|
             %p= para.html_safe
@@ -120,10 +121,26 @@
         -if I18n.locale == :en
           - t(:mk_trends).each_with_index do |text, index|
             .slide.big-slide{class: "slide#{slide_index}"}
+              %a{name: 'trendovi_u_mk'}
               - slide_index += 1
               - if index == 0
                 %h1= t(:mk_trends_title) 
               %p= text.html_safe
+          - t(:ba_trends).each_with_index do |text, index|
+            .slide.big-slide{class: "slide#{slide_index}"}
+              %a{name: 'trendovi_u_ba'}
+              - slide_index += 1
+              - if index == 0
+                %h1= t(:ba_trends_title) 
+              %p= text.html_safe
+          - t(:hr_trends).each_with_index do |text, index|
+            .slide.big-slide{class: "slide#{slide_index}"}
+              %a{name: 'trendovi_u_hr'}
+              - slide_index += 1
+              - if index == 0
+                %h1= t(:hr_trends_title) 
+              %p= text.html_safe
+
 
         .slide.big-slide{class: "slide#{slide_index}"}
           %ul.logos
