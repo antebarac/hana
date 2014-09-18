@@ -22,7 +22,7 @@ class ImageUploader < CarrierWave::Uploader::Base
 
 
   def image?(new_file = nil)
-    new_file && new_file.content_type.include?('image') || self.content_type.include?('image')
+    new_file && new_file.content_type && new_file.content_type.include?('image') || self.content_type.include?('image')
   end
   
 
