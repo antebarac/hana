@@ -14,35 +14,35 @@
   .window
     .contents.left-pad
       .slide-container.left-pad.small-slides
-        .slide.slide1.small-centered
+        .slide.small-centered
           =image_tag("headline.#{I18n.locale}.png")
           #scroll
             =image_tag("scroll.png")
-        .slide.slide2
+        .slide
           %a{name: 'meet'}
           %h1= t(:upoznajte_hanu)
           %h1= t(:upoznajte_hanu_text)
-        .slide.slide3
+        .slide
           %h1= t(:nazalost_nikako)
-        .slide.slide4
+        .slide
           %h1= t(:u_ocajnickoj_potrazi)
-        .slide.slide5
+        .slide
           %h1= t(:prvi_dan)
-        .slide.slide6
+        .slide
           %h1= t(:iducih_dana)
-        .slide.slide7
+        .slide
           %h1= t(:ipak_kad_je_policija)
-        .slide.slide8
+        .slide
           %h1= t(:kada_su_je_pustili)
-        .slide.slide9
+        .slide
           %h1= t(:otmicari_pusteni)
-        .slide.slide10
+        .slide
           %h1= t(:cekala_sudjenje)
-        .slide.slide11
+        .slide
           %h1= t(:zakazano_sudjenje)
-        .slide.slide12
+        .slide
           %h1= t(:strasno_iskustvo)
-        .slide.slide13
+        .slide
           %h1= t(:hana_nadoknada) + ":"
           %ul.big
             %li= t(:za_batine) + ","
@@ -51,22 +51,34 @@
             %li= t(:za_strah) + ","
             %li= t(:za_trajno_naruseno) + ","
             %li= t(:za_zivot) + "."
-        .slide.slide14
+        .slide
           %h1= t(:hana_je_ljudsko_bice)
-        .slide.slide15.big-slide
+        .slide.big-slide
           %a{name: 'society'}
           %h1= t(:sto_drustvo_moze)
           %p= t(:gradjani_text)
-        .slide.slide16.small-centered
+        .slide.small-centered
           %h1
             =image_tag("headline.#{I18n.locale}.png")
         - if I18n.locale == :sr
-          .slide.slide17
+          .slide
             <iframe width="640" height="360" src="//www.youtube.com/embed/NTO_egDgpcE" frameborder="0" allowfullscreen></iframe>
         - if I18n.locale == :en
-          .slide.slide17
+          .slide
             <iframe width="640" height="360" src="//www.youtube.com/embed/9XvWkt6Vl6A" frameborder="0" allowfullscreen></iframe>
-        .slide.big-slide{class: "slide#{[:sr, :en].include?(I18n.locale) ? 18 : 17}"}
+        - if I18n.locale == :hr
+          .slide
+            <iframe width="640" height="360" src="//www.youtube.com/embed/95dDs4UUD7A" frameborder="0" allowfullscreen></iframe>
+        - if I18n.locale == :mk
+          .slide
+            <iframe width="640" height="360" src="//www.youtube.com/embed/_eblHm3Mxjc" frameborder="0" allowfullscreen></iframe>
+        - if I18n.locale == :ba
+          .slide
+            <iframe width="640" height="360" src="//www.youtube.com/embed/o74gYVfs30I" frameborder="0" allowfullscreen></iframe>
+        - if I18n.locale == :me
+          .slide
+            <iframe width="640" height="360" src="//www.youtube.com/embed/NTO_egDgpcE" frameborder="0" allowfullscreen></iframe>
+        .slide.big-slide
           .logos
             =image_tag("logos.#{I18n.locale}.png", style: 'width:100%')
             %p.disclaimer= t(:disclaimer)

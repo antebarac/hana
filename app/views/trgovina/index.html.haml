@@ -6,12 +6,12 @@
   .window.bigger-window
     .contents
       .slide-container.big-slides
-        .slide.big-slide.slide1
+        .slide.big-slide
           %a{name: 'definicija'}
           %p= t(:trgovina_ljudima_text1)
           #scroll
             =image_tag("scroll.png")
-        .slide.big-slide.slide2
+        .slide.big-slide
           %p= t(:trgovina_ljudima_text2)
           %p.italic= t(:prava_zrtava)
 
@@ -23,7 +23,7 @@
           %h3.number 2
           %h2= t(:informiranost)
           %p= t(:informiranost_text)
-        .slide.big-slide.slide3
+        .slide.big-slide
           .pad &nbsp;
           %h3.number 3
           %h2= t(:fizicka_zastita)
@@ -36,7 +36,7 @@
           %h3.number 5
           %h2= t(:pravna_pomoc)
           %p= t(:pravna_pomoc_text)
-        .slide.big-slide.slide4
+        .slide.big-slide
           %h3.number 6
           %h2= t(:nadoknada_stete)
           %p= t(:nadoknada_stete_text)
@@ -46,7 +46,7 @@
           %h3.number 8
           %h2= t(:smestaj)
           %p= t(:smestaj_text)
-        .slide.big-slide.slide5
+        .slide.big-slide
           %h3.number 9
           %h2= t(:medicinska_pomoc)
           %p= t(:medicinska_pomoc_text)
@@ -56,14 +56,14 @@
           %h3.number 11
           %h2= t(:reintegracija)
           %p= t(:reintegracija_text)
-        .slide.big-slide.slide6
+        .slide.big-slide
           %h3.number 12
           %h2= t(:prevodioc)
           %p= t(:prevodioc_text)
           .pad &nbsp;
           %em
             %p= t(:nijedno_od_prava)
-        .slide.big-slide.slide7
+        .slide.big-slide
           %h3.number 13
           %h2= t(:boravak)
           %p= t(:boravak_text)
@@ -71,11 +71,10 @@
           %h2= t(:povratak)
           %p= t(:povratak_text_1)
           %p= t(:povratak_text_2)
-        - slide_index = 8
         - if(t(:stats) > 0)
           - t(:stats).times do |i|
 
-            .slide.big-slide{class: "slide#{slide_index}"}
+            .slide.big-slide
               - if i == 0
                 %a{name: 'statisticki_podaci'} &nbsp;
                 %h2= t(:statisticki_podaci)
@@ -95,54 +94,46 @@
                   %h2 Macedonia
                   %br
 
-              - slide_index += 1
               =image_tag ("stats/stat#{i + 1}.#{I18n.locale}.png")
 
-        .slide.big-slide{class: "slide#{slide_index}"}        
-          - slide_index += 1
+        .slide.big-slide        
           %a{name: 'trendovi_u'}
           %a{name: 'trendovi_u_sr'}
           %h1= t(:trendovi_u_trgovini)
           - t(:trendovi_u_trgovini_list)[0..1].each do |para|
             %p= para.html_safe
-        .slide.big-slide{class: "slide#{slide_index}"}
-          - slide_index += 1
+        .slide.big-slide
           - t(:trendovi_u_trgovini_list)[2..3].each do |para|
             %p= para.html_safe
-        .slide.big-slide{class: "slide#{slide_index}"}
-          - slide_index += 1
+        .slide.big-slide
           - t(:trendovi_u_trgovini_list)[4..5].each do |para|
             %p= para.html_safe
         -if t(:trendovi_u_trgovini_list).size() > 6
-          .slide.big-slide{class: "slide#{slide_index}"}
-            - slide_index += 1
+          .slide.big-slide
             - t(:trendovi_u_trgovini_list)[6..7].each do |para|
               %p= para.html_safe
         -if I18n.locale == :en
           - t(:mk_trends).each_with_index do |text, index|
-            .slide.big-slide{class: "slide#{slide_index}"}
+            .slide.big-slide
               %a{name: 'trendovi_u_mk'}
-              - slide_index += 1
               - if index == 0
                 %h1= t(:mk_trends_title) 
               %p= text.html_safe
           - t(:ba_trends).each_with_index do |text, index|
-            .slide.big-slide{class: "slide#{slide_index}"}
+            .slide.big-slide
               %a{name: 'trendovi_u_ba'}
-              - slide_index += 1
               - if index == 0
                 %h1= t(:ba_trends_title) 
               %p= text.html_safe
           - t(:hr_trends).each_with_index do |text, index|
-            .slide.big-slide{class: "slide#{slide_index}"}
+            .slide.big-slide
               %a{name: 'trendovi_u_hr'}
-              - slide_index += 1
               - if index == 0
                 %h1= t(:hr_trends_title) 
               %p= text.html_safe
 
 
-        .slide.big-slide{class: "slide#{slide_index}"}
+        .slide.big-slide
           .logos
             =image_tag("logos.#{I18n.locale}.png", style: 'width:100%')
             %p.disclaimer= t(:disclaimer)

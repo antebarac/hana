@@ -6,46 +6,94 @@
   .window.bigger-window
     .contents.left-pad
       .slide-container.left-pad.big-slides
-        .slide.big-slide.slide1
+        .slide.big-slide
           %a{name: 'ban'}
           %h1= "„Balkans ACT (Against Crime of Trafficking) Now“"
           %h1= t(:projekat_realizuju)
           - t(:projekat_realizuju_list).each do |realizira|
-            %p= realizira
+            %p 
+              %a{href: realizira['link'], target: '_blank'}= realizira['text']
           #scroll
             =image_tag("scroll.png")
-        .slide.big-slide.slide2
+        - if t(:projekat_realizuju_2_list).class == Array
+          .slide.big-slide
+            %h1= t(:projekat_realizuju_2)
+            - t(:projekat_realizuju_2_list).each do |realizira|
+              %p 
+                %a{href: realizira['link'], target: '_blank'}= realizira['text']
+        .slide.big-slide
           %h1= t(:projekat_finansira)
           %p= t(:projekat_finansira_text)
           %h1= t(:projekt_podrzavaju)
           - t(:projekat_podrzavaju_list).each do |podrzava|
             %p= podrzava
-        .slide.big-slide.slide3
+        .slide.big-slide
           %a{name: 'goals'}
           %h1= t(:trajanje_projekta)
           %p= t(:trajanje_projekta_text)
-          %h1= t(:ciljevi)
-          %p= t(:ciljevi_text_1)
-          %p= t(:ciljevi_text_2)
-        .slide.big-slide.slide4
+          - unless I18n.locale == :hr
+            %p= t(:trajanje_projekta_text_2)
+            %p= t(:ciljevi_intro)
+        .slide.big-slide
+          - if I18n.locale != :hr
+            %h1= t(:specificni_ciljevi_po_fazama)
+            %h2= t(:prva_faza)
+            %p= t(:prva_faza_ciljevi)
+            %h2= t(:druga_faza)
+            %p= t(:druga_faza_ciljevi).html_safe
+          - else
+            %h1= t(:ciljevi)
+            %p= t(:ciljevi_text_1)
+            %p= t(:ciljevi_text_2).html_safe
+        .slide.big-slide
           %a{name: 'activities'}
           %h1= t(:osnovne_aktivnosti)
           %ul
             - t(:osnovne_aktivnosti_list).each do |aktivnost|
               %li= aktivnost
-        .slide.big-slide.slide5
+        - if t(:osnovne_aktivnosti_2_list).class == Array
+          .slide.big-slide
+            %a{name: 'activities'}
+            %h1= t(:osnovne_aktivnosti_2)
+            %ul
+              - t(:osnovne_aktivnosti_2_list).each do |aktivnost|
+                %li= aktivnost
+        .slide.big-slide
           %a{name: 'results'}
-          %h1= t(:ocekivani_rezultati)
+          - unless I18n.locale == :hr
+            %h1= t(:ocekivani_rezultati_po_fazama)
+          %h2= t(:ocekivani_rezultati)
           %ul
             - t(:ocekivani_rezultati_list).each do |rezultat|
               %li= rezultat
-        .slide.big-slide.slide6
+
+        - if t(:saradnici_na_projektu_2_list).class == Array
+          .slide.big-slide
+            %a{name: 'results'}
+            %h2= t(:ocekivani_rezultati_2)
+            %ul
+              - t(:ocekivani_rezultati_2_list).each do |rezultat|
+                %li= rezultat        
+        .slide.big-slide
           %a{name: 'associates'}
           %h1= t(:saradnici_na_projektu)
           %ul
             - t(:saradnici_na_projektu_list).each do |saradnik|
-              %li= saradnik
-        .slide.big-slide.slide7
+              %li    
+                %a{href: saradnik['link'], target: '_blank'}= saradnik['text']
+        - if t(:saradnici_na_projektu_2_list).class == Array
+          .slide.big-slide
+            %a{name: 'associates'}
+            %h1= t(:saradnici_na_projektu_2)
+            %ul
+              - t(:saradnici_na_projektu_2_list).each do |saradnik|          
+                %li    
+                  - if saradnik['link'].blank?
+                    = saradnik['text']
+                  - else
+                    %a{href: saradnik['link'], target: '_blank'}= saradnik['text']
+
+        .slide.big-slide
           %a{name: 'contact'}
           %h1= t(:kontakt)
           %p
@@ -57,7 +105,7 @@
             <br/>
             = t(:kontakt_web).html_safe
 
-        .slide.slide8.big-slide
+        .slide.big-slide
           .logos
             =image_tag("logos.#{I18n.locale}.png", style: 'width:100%')
             %p.disclaimer= t(:disclaimer)

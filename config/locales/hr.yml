@@ -64,13 +64,27 @@ hr:
   povratak_text_2: Ukoliko nema odgovarajuću dokumentaciju za povratak, njena zemlja porijekla joj je dužna izdati svu potrebnu dokumentaciju. 
   projekat_realizuju: "Projekt provode:"
   projekat_realizuju_list: 
-    - ASTRA – Akcija protiv trgovine ljudima, Srbija
-    - PSD – Partnerstvo za društveni razvoj, Hrvatska
-    - Otvorena porta – La Strada, Makedonija
-    - MFS Emmaus – Međunarodni forum solidarnosti, Bosna i Hercegovina
-    - ALC – Accompagnement, Lieux  d’Accueil, Carrefour educatif et social, Francuska
-    - CCEM – Committe Contre L’Esclavage Moderne, Francuska
-    - NHC – Netherlands Helsinki Committee, Nizozemska 
+    -
+      text: ASTRA – Akcija protiv trgovine ljudima, Srbija
+      link: http://www.astra.rs
+    - 
+      text: PSD – Partnerstvo za društveni razvoj, Hrvatska
+      link: http://www.psd.hr/hr
+    - 
+      text: Otvorena porta – La Strada, Makedonija
+      link: http://www.lastrada.org.mk
+    - 
+      text: MFS Emmaus – Međunarodni forum solidarnosti, Bosna i Hercegovina
+      link: http://www.mfs-emmaus.ba
+    - 
+      text: ALC – Accompagnement, Lieux  d’Accueil, Carrefour educatif et social, Francuska
+      link: http://www.association-alc.org/
+    - 
+      text: CCEM – Committe Contre L’Esclavage Moderne, Francuska
+      link: http://www.esclavagemoderne.org/
+    - 
+      text: NHC – Netherlands Helsinki Committee, Nizozemska
+      link: http://www.nhc.nl/
   projekat_finansira: "Projekt financira:"
   projekat_finansira_text: Europskа unijа u okviru IPA programa – Civil Society Facility Framework Partnership Agreements
   projekat_podrzavaju_list:  
@@ -99,19 +113,45 @@ hr:
     - Sveobuhvatna OCD regionalna strategija operacionalizirana   
   saradnici_na_projektu: "Suradnici na projektu:"
   saradnici_na_projektu_list:
-    - Udruženje tužilaca Federacije Bosne i Hercegovine
-    - CRPC – Criminal Policy and Research Centre, Bosna i Hercegovina
-    - Ministarstvo sigurnosti/Odsjek za borbu protiv trgovinu ljudima (državni koordinator), Bosna i Hercegovina
-    - Udruga žena Vukovar, Hrvatska
-    - Ženska soba – Centar za seksualna prava, Hrvatska
-    - NVO Zora, Hrvatska
-    - Ministarstvo pravde, Francuska
-    - AHRPR – Asocijacija za zaštitu ljudskih prava Roma i Albanaca, BJR Makedonija
-    - Akademija za sudije i javne tužioce Makedonije
-    - Odbor za ljudska prava Vranje, Srbija
-    - UG „Svet reči“, Srbija
-    - Pravosudna akademija, Srbija
-    - Koalicija „Svi za pravično suđenje“, BJR Makedonija
+    - 
+      text: Udruženje tužilaca Federacije Bosne i Hercegovine
+      link: http://www.pravosudje.ba
+    - 
+      text: CRPC – Criminal Policy and Research Centre, Bosna i Hercegovina
+      link: http://www.cprc.ba
+    - 
+      text: Ministarstvo sigurnosti/Odsjek za borbu protiv trgovinu ljudima (državni koordinator), Bosna i Hercegovina
+      link: http://www.msb.gov.ba/
+    - 
+      text: Udruga žena Vukovar, Hrvatska
+      link: http://www.udzvu.org/
+    - 
+      text: Ženska soba – Centar za seksualna prava, Hrvatska
+      link: http://www.zenskasoba.hr/
+    - 
+      text: NVO Zora, Hrvatska
+      link: http://www.udrugazora.hr/
+    - 
+      text: Ministarstvo pravde, Francuska
+      link: http://www.justice.gouv.fr/
+    - 
+      text: AHRPR – Asocijacija za zaštitu ljudskih prava Roma i Albanaca, BJR Makedonija
+      link: http://www.humanrightsofroma.20m.com/
+    - 
+      text: Akademija za sudije i javne tužioce Makedonije
+      link: http://www.jpacademy.gov.mk/
+    - 
+      text: Odbor za ljudska prava Vranje, Srbija
+      link: http://www.hrcvr.org/
+    - 
+      text: UG „Svet reči“, Srbija
+      link: http://svetreci.org.rs/
+    - 
+      text: Pravosudna akademija, Srbija
+      link: http://www.pars.rs/
+    - 
+      text: Koalicija „Svi za pravično suđenje“, BJR Makedonija
+      link: http://www.all4fairtrials.org.mk/
   kontakt: Kontakt
   kontakt_naziv: PARTNERSTVO ZA DRUŠTVENI RAZVOJ
   kontakt_tel: "tel: +385 1 6055 668, fax: +385 1 6055 669"

@@ -61,17 +61,49 @@ ba:
   povratak: Povratak (repatrijacija) 
   povratak_text_1: U slučaju da žrtva trgovine želi da se vrati u zemlju porijekla ili zemlju u kojoj je boravila prije ulaska u zemlju gdje je identificirana, državni organi su dužni da joj omoguće odlazak bez nepotrebnog ili neopravdanog odgađanja i vodeći računa o njenoj sigurnosti. 
   povratak_text_2: Ukoliko nema odgovarajuću dokumentaciju za povratak, njena zemlja porijekla je dužna da joj izda sve potrebne dokumente. 
-  projekat_realizuju: "Projekt provode:"
-  projekat_realizuju_list: 
-    - ASTRA – Akcija protiv trgovine ljudima, Srbija
-    - PSD – Partnerstvo za društveni razvoj, Hrvatska
-    - Otvorena porta – La Strada, Makedonija
-    - MFS-EMMAUS – Međunarodni forum solidarnosti - EMMAUS, Bosna i Hercegovina
-    - ALC – Accompagnement, Lieux  d’Accueil, Carrefour educatif et social, Francuska
-    - CCEM – Committe Contre L’Esclavage Moderne, Francuska
-    - NHC – Netherlands Helsinki Committee, Holandija
+  projekat_realizuju: "Prvu fazu projekta su realizovale:"
+  projekat_realizuju_list:
+    -
+      text: ASTRA – Akcija protiv trgovine ljudima, Srbija
+      link: http://www.astra.rs
+    - 
+      text: PSD – Partnerstvo za društveni razvoj, Hrvatska
+      link: http://www.psd.hr/hr
+    - 
+      text: Otvorena porta – La Strada, Makedonija
+      link: http://www.lastrada.org.mk
+    - 
+      text: MFS Emmaus – Međunarodni forum solidarnosti, Bosna i Hercegovina
+      link: http://www.mfs-emmaus.ba
+    - 
+      text: ALC – Accompagnement, Lieux  d’Accueil, Carrefour educatif et social, Francuska
+      link: http://www.association-alc.org/
+    - 
+      text: CCEM – Committe Contre L’Esclavage Moderne, Francuska
+      link: http://www.esclavagemoderne.org/
+    - 
+      text: NHC – Netherlands Helsinki Committee, Holandija
+      link: http://www.nhc.nl/
+  projekat_realizuju_2: "Drugu fazu projekta realizuju:"
+  projekat_realizuju_2_list: 
+    - 
+      text: ASTRA – Akcija protiv trgovine ljudima, Srbija
+      link: http://www.astra.rs
+    - 
+      text: Otvorena porta – La Strada, Makedonija
+      link: http://www.lastrada.org.mk
+    - 
+      text: MFS Emmaus – Međunarodni forum solidarnosti, Bosna i Hercegovina
+      link: http://www.mfs-emmaus.ba
+    -
+      text: Centar za ženska prava, Crna Gora
+      link: http://www.wrcentre.com/index.php?lan=serb
+    -
+      text: La Strada International, Holandija 
+      link: http://lastradainternational.org/       
   projekat_finansira: "Projekt finansira:"
   projekat_finansira_text: Evropskа unijа u okviru IPA programa – Civil Society Facility Framework Partnership Agreements
+  projekt_podrzavaju: "Prvu fazu projekta su podržali:"
   projekat_podrzavaju_list:  
     - Republika Francuska
     - Ambasada Kraljevine Holandije
@@ -80,37 +112,122 @@ ba:
   trajanje_projekta: Trajanje projekta
   trajanje_projekta_text: 24 mjeseca (decembar 2012 – decembar 2014)
   ciljevi: Ciljevi
+  ciljevi_intro: Cilj projekta Balkans ACT Now je doprinos demokratizaciji i procesu EU integracija na Zapadnom Balkanu kroz unaprjeđenje okruženja za građanski aktivizam, kao i kroz jačanje kapaciteta, posvećenosti i uticaja mreža civilnog društva u debati o ljudskim pravima i vladavini prava u oblasti organizovanog kriminala, konkretno trgovine ljudima.
+  specificni_ciljevi_po_fazama: Specifični ciljevi po fazama projekta
+  prva_faza: Prva faza
+  prva_faza_ciljevi: Unapređenje kapaciteta organizacija civilnog društva da vrše nezavisne i objektivne analize i monitoring; legitimnosti i odgovornosti; uticaja na politiku u Srbiji, Hrvatskoj, Bosni i Hercegovini i BJR Makedoniji u oblasti borbe protiv trgovine ljudima i usklađivanja politika u oblasti policije i pravosuđa sa standardima, normama i vrednostima EU.
+  druga_faza: Druga faza
+  druga_faza_ciljevi: Evaluacija i javno predstavljanje postojećih praksi u oblasti pravosuđa kada se radi o postupanju sa žrtvama trgovine ljudima i relevantnim mehanizmima i procedurama. <br/><br/>Razvijanje i zastupanje uvođenje novog mehanizma za samoodrživ i efikasan mehanizam kompenzacije za žrtve trgovine ljudima i drugih krivičnih dela sa elementima nasilja u Bosni i Hercegovini, BJR Makedoniji, Srbiji i Crnoj Gori. 
   ciljevi_text_1: Osnovni cilj projekta je doprinos demokratizaciji i procesu europskih integracija u Zapadnom Balkanu kroz unapređenje okruženja za građanski aktivizam, kapaciteta, posvećenosti i utjecaja mreža civilnog društva u oblasti ljudskih prava i vladavine prava u kontekstu problema organiziranog kriminala, tj. trgovine ljudima.
-  ciljevi_text_2: Specifičan cilj je unapređenje kapaciteta organizacija civilnog društva da vrše nezavisne i objektivne analize i monitoring; legitimnosti i odgovornosti; utjecaja na politiku u Srbiji, Hrvatskoj, Bosni i Hercegovini i BJR Makedoniji u oblasti borbe protiv trgovine ljudima i usklađivanja politika u oblasti policije i pravosuđa sa standardima, normama i vrijednostima EU.
-  osnovne_aktivnosti: "Osnovne aktivnosti:"
+  ciljevi_text_2: Evaluacija i javno predstavljanje postojećih praksi u oblasti pravosuđa kada se radi o postupanju sa žrtvama trgovine ljudima i relevantnim mehanizmima i procedurama.  <br/><br/>Razvijanje i zastupanje uvođenja novog mehanizma za samoodrživ i efikasan mehanizam kompenzacije za žrtve trgovine ljudima i drugih krivičnih djela sa elementima nasilja u Bosni i Hercegovini, BJR Makedoniji, Srbiji i Crnoj Gori. 
+  osnovne_aktivnosti: "Aktivnosti u prvoj fazi:"
   osnovne_aktivnosti_list:
-    - Provođenje detaljne situacione analize u svim ciljnim zemljama i na tom osnovu izrada odgovarajuće partnerske strategije
+    - Sprovođenje detaljne situacione analize u svim ciljnim zemljama i na tom osnovu izrada odgovarajuće partnerske strategije
     - Izrada, potpisivanje i operacionalizacija regionalne NVO Deklaracije o borbi protiv trgovine ljudima
-    - Treninzi za NVO u oblasti zastupanja na visokom nivou, analize i praćenja rada policije i pravosuđa
-    - Organizacija regionalne konferencije posvećene prenošenju najboljih EU praksi u oblasti trgovine ljudima
-    - Provođenje ciljanih nacionalnih i regionalnih kampanja javnog zastupanja i izgradnje politika
+    - Treninzi za NVO u oblasti javnog zastupanja na visokom nivou, analize i praćenja rada policije i pravosuđa
+    - Organizaciju regionalne konferencije posvećene prenošenju najboljih EU praksi u oblasti trgovine ljudima
+    - Sprovođenje ciljanih nacionalnih i regionalnih kampanja javnog zastupanja i izgradnje politika
     - Razvoj NVO monitoring mehanizma
-  ocekivani_rezultati: "Očekivani rezultati:"
+  osnovne_aktivnosti_2: "Aktivnosti u drugoj fazi:"
+  osnovne_aktivnosti_2_list:
+    - Praćenje nacionalnih politika za suzbijanje trgovine ljudima u Bosni i Hercegovini, BJR Makedoniji, Srbiji i Crnoj Gori na osnovu posebno osmišljenog sistema za monitoring
+    - Izrada i prezentovanje regionalnog izvještaja o trgovini ljudima na osnovu rezultata monitoringa
+    - Izrada prijedloga politika i studija izvodljivosti fonda za kompenzaciju za žrtve trgovine ljudima i drugih krivičnih djela sa elementima nasilja u odabranim državama Zapadnog Balkana
+    - Radna grupa za izradu prijedloga politika i studije izvodljivosti fonda za kompenzaciju za žrtve trgovine ljudima i drugih krivičnih djela sa elementima nasilja u odabranim državama Zapadnog Balkana 
+    - Vođenje strateških parnica u slučajevima trgovine ljudima 
+    - Medijska kampanja protiv trgovine ljudima 
+  ocekivani_rezultati_po_fazama: "Očekivani rezultati po fazama projekta"
+  ocekivani_rezultati: "U prvoj fazi"    
   ocekivani_rezultati_list:
     - Poboljšanje partnerstva i saradnje između NVO i policije i pravosudnih organa u odabranim državama Zapadnog Balkana.
     - Osnaživanje nevladinih organizacija Zapadnog Balkana u oblasti zastupanja na visokom nivou, analize i monitoringa rada policije i pravosuđa, obezbjeđenja da se čuje glas građana, te u oblasti odgovornosti i saradnje
     - Ciljane politike usklađene sa vrijednostima i standardima EU i kampanje zastupanja koje doprinose boljem funkcioniranju policije i pravosuđa
     - Operacionalizirana zajednička NVO regionalna strategija 
-  saradnici_na_projektu: "Saradnici na projektu:"
+  ocekivani_rezultati_2: "U drugoj fazi"
+  ocekivani_rezultati_2_list:
+    - Izrađen efikasan instrument za praćenje koji je posebno osmišljen tako da omogući uvid u sprovođenje nacionalnih politika suzbijanja trgovine ljudima, posebno u oblasti pravosuđa, kao i anti-trafiking mehanizama i procedura. 
+    - Identifikovani ključni izazovi u oblasti suzbijanja trgovine ljudima u odabranim državama Zapadnog Balkana i formulisane preporuke za unaprjeđenje stanja u komunikaciji sa relevantnim akterima. 
+    - Izrađene studije izvodljivosti fonda za kompenzaciju i izrađeni nacrti prijedloga politika za uvođenje državnih mehanizama za kompenzaciju, kao i predstavljanje ovih dokumenata stručnoj javnosti.
+    - Građani uključenih država su svjesni značaja aktivnosti na suzbijanju trgovine ljudima i podržavaju promjene politika u ovoj oblasti. 
+  saradnici_na_projektu: "Saradnici na projektu u prvoj fazi:"
   saradnici_na_projektu_list:
-    - Udruženje tužilaca Federacije Bosne i Hercegovine
-    - CPRC – Centar za istraživanje politike suprotstavljanja kriminalitetu
-    - Ministarstvo sigurnosti/Odsjek za borbu protiv trgovinu ljudima (državni koordinator), Bosna i Hercegovina
-    - Udruga žena Vukovar, Hrvatska
-    - Ženska soba – Centar za seksualna prava, Hrvatska
-    - NVO Zora, Hrvatska
-    - Ministarstvo pravde, Francuska
-    - AHRPR – Asocijacija za zaštitu ljudskih prava Roma i Albanaca, BJR Makedonija
-    - Akademija za sudije i javne tužioce Makedonije
-    - Odbor za ljudska prava Vranje, Srbija
-    - UG „Svet reči“, Srbija
-    - Pravosudna akademija, Srbija
-    - Koalicija „Svi za pravično suđenje“, BJR Makedonija
+    - 
+      text: Udruženje tužilaca Federacije Bosne i Hercegovine
+      link: http://www.pravosudje.ba
+    - 
+      text: CRPC – Criminal Policy and Research Centre, Bosna i Hercegovina
+      link: http://www.cprc.ba
+    - 
+      text: Ministarstvo sigurnosti/Odsjek za borbu protiv trgovinu ljudima (državni koordinator), Bosna i Hercegovina
+      link: http://www.msb.gov.ba/
+    - 
+      text: Udruga žena Vukovar, Hrvatska
+      link: http://www.udzvu.org/
+    - 
+      text: Ženska soba – Centar za seksualna prava, Hrvatska
+      link: http://www.zenskasoba.hr/
+    - 
+      text: NVO Zora, Hrvatska
+      link: http://www.udrugazora.hr/
+    - 
+      text: Ministarstvo pravde, Francuska
+      link: http://www.justice.gouv.fr/
+    - 
+      text: AHRPR – Asocijacija za zaštitu ljudskih prava Roma i Albanaca, BJR Makedonija
+      link: http://www.humanrightsofroma.20m.com/
+    - 
+      text: Akademija za sudije i javne tužioce Makedonije
+      link: http://www.jpacademy.gov.mk/
+    - 
+      text: Odbor za ljudska prava Vranje, Srbija
+      link: http://www.hrcvr.org/
+    - 
+      text: UG „Svet reči“, Srbija
+      link: http://svetreci.org.rs/
+    - 
+      text: Pravosudna akademija, Srbija
+      link: http://www.pars.rs/
+    - 
+      text: Koalicija „Svi za pravično suđenje“, BJR Makedonija
+      link: http://www.all4fairtrials.org.mk/
+  saradnici_na_projektu_2: "Saradnici na projektu u drugoj fazi:"
+  saradnici_na_projektu_2_list:     
+    - 
+      text: Pravosudna akademija, Srbija
+      link: http://www.pars.rs/
+    - 
+      text: Grupa 484, Srbija
+      link: http://www.grupa484.org.rs/
+    - 
+      text: Centar za zaštitu žrtava trgovine ljudima, Srbija
+      link: http://www.centarzztlj.rs/
+    - 
+      text: Udruženje tužilaca Federacije Bosne i Hercegovine
+      link: http://www.pravosudje.ba/
+    - 
+      text: Centar za istraživanje politike suprotstavljanja kriminalitetu – CRPC, Bosna i Hercegovina
+      link: http://www.cprc.ba/
+    - 
+      text: Ministarstvo sigurnosti/Odsjek za borbu protiv trgovinu ljudima (državni koordinator), Bosna i Hercegovina
+      link: http://www.msb.gov.ba/
+    - 
+      text: Здружение за еманципација, солидарност и еднаквост на жените, BJR Makedonija 
+      link: http://www.esem.org.mk/
+    - 
+      text: Nacionalna komisija za suzbijanje trgovine ljudima i ilegalnih migracija, BJR Makedonija 
+      link: 
+    - 
+      text: Sigurna ženska kuća, Crna Gora
+      link: http://www.szk.me/
+    - 
+      text: SOS telefon za žene i djecu žrtve nasilja, Nikšić, Crna Gora
+      link: http://www.sosnk.org/
+    - 
+      text: Holandski helsinški odbor, Holandija
+      link: http://www.nhc.nl/
+    - 
+      text: CCEM – Committe Contre L’Esclavage Moderne, Francuska
+      link: http://www.esclavagemoderne.org/
   kontakt: Kontakt
   kontakt_naziv: Međunarodni forum solidarnosti – EMMAUS
   kontakt_tel: "tel: +387 33 263 385; fax: +387 33 263 386"

@@ -61,29 +61,67 @@ en:
   povratak: Repatriation  
   povratak_text_1: In case that a human trafficking victim wants to return to his/her country of origin, or the country in which s/he had resided before entering the country in which s/he was identified as victim, state authorities are obliged to facilitate his/her repatriation without unnecessary or unjustified delay and taking care of his/her safety in the process.  
   povratak_text_2: In case the victim lacks necessary documents for the return, his/her country of origin is obliged to issue all the necessary documents.    
-  projekt_podrzavaju: "The Project supported by:"
-  projekat_realizuju: "The project is implemented by:"
+  projekat_realizuju: "The first phase of the project was implemented by:"
   projekat_realizuju_list: 
-    - ASTRA - Anti Trafficking Action, Serbia
-    - PSD - Partnership for Social Development, Croatia
-    - Open Gate - La strada, Macedonia
-    - International Forum of Solidarity - EMMAUS, Bosnia and Herzegovina
-    - ALC - Accompagnement, Lieux d’Accueil, Carrefour educatif et social, France
-    - CCEM - Committe Contre L’Esclavage Moderne, France
-    - NHC - Netherlands Helsinki Committee, The Netherlands 
+    - 
+      text: ASTRA - Anti Trafficking Action, Serbia
+      link: http://www.astra.rs
+    - 
+      text: PSD - Partnership for Social Development, Croatia
+      link: http://www.psd.hr/hr
+    - 
+      text: Open Gate - La strada, Macedonia
+      link: http://www.lastrada.org.mk
+    - 
+      text: International Forum of Solidarity - EMMAUS, Bosnia and Herzegovina
+      link: http://www.mfs-emmaus.ba 
+    - 
+      text: ALC - Accompagnement, Lieux d’Accueil, Carrefour educatif et social, France
+      link: http://www.association-alc.org/
+    - 
+      text: CCEM - Committe Contre L’Esclavage Moderne, France
+      link: http://www.esclavagemoderne.org/
+    - 
+      text: NHC - Netherlands Helsinki Committee, The Netherlands 
+      link: ttp://www.nhc.nl/
+  projekat_realizuju_2: "The second phase of the project is implemented by:"        
+  projekat_realizuju_2_list: 
+    - 
+      text: ASTRA - Anti Trafficking Action, Serbia
+      link: http://www.astra.rs
+    - 
+      text: Open Gate - La strada, Macedonia
+      link: http://www.lastrada.org.mk
+    - 
+      text: International Forum of Solidarity - EMMAUS, Bosnia and Herzegovina
+      link: http://www.mfs-emmaus.ba
+    -
+      text: Women’s Rights Center, Montenegro
+      link: http://www.wrcentre.com/index.php?lan=serb
+    -
+      text: La Strada International, The Netherlands
+      link: http://lastradainternational.org/            
   projekat_finansira: "The project is funded by:"
   projekat_finansira_text: the European Union within the IPA programme - Civil Society Facility Framework Partnership Agreements
+  projekt_podrzavaju: "The first phase of the project was implemented by:"
   projekat_podrzavaju_list:  
     - The French Republic
     - Embassy of the Kingdom of the Netherlands
     - OAK Foundation
     - Government of the Republic of Croatia – Office for Cooperation with NGOs
   trajanje_projekta: "Duration of the project:"
-  trajanje_projekta_text: 24 months (December 2012 – December 2014)
+  trajanje_projekta_text: "First phase: 24 months (December 2012 – December 2014)"
+  trajanje_projekta_text_2: "Second phase: 22 months (January 2015 – October 2016)"
   ciljevi: Objectives
+  ciljevi_intro: The project objective is to contribute to democratization and EU integration processes in the Western Balkans through improving civil activism environment, capacity, commitment and influence of civil society networks in debate on human rights and the rule of law related to the issue of organized crime, specifically human trafficking.
+  specificni_ciljevi_po_fazama: Specific objectives per project phases
+  prva_faza: Phase one
+  prva_faza_ciljevi: Enhance capacity of CSOs independent and objective analysis and monitoring; legitimacy and accountability; influence over policy in Serbia, Croatia, Bosnia and Herzegovina and FYR Macedonia, in efforts to contribute to combating of human trafficking and aligning justice sector policies with standards, norms and values of the EU.
+  druga_faza: Phase two
+  druga_faza_ciljevi: Evaluation and public presentation of the current practices within the justice sector regarding treatment of victims of human trafficking and related mechanisms and procedures. <br/><br/> Development and advocating new policy proposals for self-sustainable and effective compensation mechanism for the victims of human trafficking and other violent crimes in targeted states.    
   ciljevi_text_1: The overall objective of the project is to contribute to democratisation and EU integration processes in the Western Balkans through improving civil activism environment, capacity, commitment and influence of civil society networks in debate on human rights and the rule of law related to the issue of organized crime, specifically human trafficking.
   ciljevi_text_2: Specific objective is to enhance capacity of CSOs independent and objective analysis and monitoring; legitimacy and accountability; influence over policy in Serbia, Croatia, Bosnia and Herzegovina and FYR Macedonia, in efforts to contribute to combating of human trafficking and aligning justice sector policies with standards, norms and values of the EU.
-  osnovne_aktivnosti: "Main activities:"
+  osnovne_aktivnosti: "Activities implemented in the phase one:"
   osnovne_aktivnosti_list:
     - Completion of detailed situation analysis in all targeted countries and it informs finalized Partnership Strategy
     - Creation, endorsement and operationalization of the regional CSO Declaration on combating human trafficking
@@ -91,27 +129,106 @@ en:
     - Implementation of regional conference aimed at transferring EU practices in prosecution of traffickers
     - Implementation of the targeted national and regional advocacy campaigns 
     - Development of CSO monitoring mechanism
-  ocekivani_rezultati: "Expected results:"
+  osnovne_aktivnosti_2: "Activities in the phase two:"
+  osnovne_aktivnosti_2_list:
+    - Monitoring national anti-trafficking policies in targeted IPA countries based on specifically designed monitoring tool. 
+    - Producing and presenting Regional Report on Trafficking in Human Beings based on the findings of the monitoring process. 
+    - Producing policy proposals and feasibility studies for compensation funds for victims of human trafficking/crime in targeted IPA countries.
+    - Working groups for developing policy proposals for establishing state compensation fund in all targeted states
+    - Strategic litigation of trafficking cases
+    - Anti-trafficking media campaign.
+  ocekivani_rezultati_po_fazama: "Očekivani rezultati per project phases:"      
+  ocekivani_rezultati: "In the phase one:"
   ocekivani_rezultati_list:
     - CSOs and justice sectors in targeted Western Balkans countries improve their partnership ties and joint work
     - Western Balkans CSOs strengthened in high level analysis, advocacy and monitoring; in giving voice to citizens; accountability and working together
     - Targeted policies aligned with EU values and standards, and advocacy campaigns add value to the operation of justice sectors
     - The overarching CSO regional strategy operationalized 
-  saradnici_na_projektu: "Project collaborators:"
+  ocekivani_rezultati_2: "In the phase two:"
+  ocekivani_rezultati_2_list:
+    - Efficient CSO monitoring tool specifically designed to enable in-sights into justice sector policies towards the victims of human trafficking and related anti-trafficking mechanisms and procedures in targeted states, adjusted and put to use; 
+    - Key challenges in the domain of combating human trafficking in all targeted states identified and policy recommendations for change formulated, communicated and advocated; 
+    - Feasibility studies on state compensation funds conducted and policy proposals for establishing state compensation mechanisms drafted and presented to the public in the targeted states; 
+    - Citizens of the targeted states aware of the relevance of anti-trafficking activities and invited to support the policy changes in this domain.
+  saradnici_na_projektu: "Associates in the first phase of the project:"
   saradnici_na_projektu_list:
-    - Association of Prosecutors of the Federation of Bosnia and Herzegovina
-    - CRPC – Criminal Policy and Research Centre, Bosnia and Herzegovina
-    - Ministry of Security/Department for Combating Human Trafficking (State Coordinator), Bosnia and Herzegovina  
-    - Women’s Association Vukovar, Croatia
-    - Women’s Room – Center for sexual rights, Croatia 
-    - NGO Dawn, Croatia
-    - Ministry of Justice, France
-    - AHRPR – Association for human rights protection of Roma – Shtip, FYR Macedonia
-    - Academy for Training Judges and Public Prosecutors of Macedonia, FYR Macedonia
-    - Coalition “All for fair trials”, FYR Macedonia
-    - HRC – Human Rights Committee Vranje, Serbia
-    - NGO The World of Words, Serbia
-    - JAS – Judiciary academy of Serbia
+    - 
+      text: Association of Prosecutors of the Federation of Bosnia and Herzegovina
+      link: http://www.pravosudje.ba
+    - 
+      text: CRPC – Criminal Policy and Research Centre, Bosna i Hercegovina
+      link: http://www.cprc.ba
+    - 
+      text: Ministry of Security/Department for Combating Human Trafficking (State Coordinator), Bosnia and Herzegovina  
+      link: http://www.msb.gov.ba/
+    - 
+      text: Women’s Association Vukovar, Croatia
+      link: http://www.udzvu.org/
+    - 
+      text: Women’s Room – Center for sexual rights, Croatia
+      link: http://www.zenskasoba.hr/
+    - 
+      text: NGO Dawn, Croatia
+      link: http://www.udrugazora.hr/
+    - 
+      text: Ministry of Justice, France
+      link: http://www.justice.gouv.fr/
+    - 
+      text: AHRPR – Association for human rights protection of Roma – Shtip, FYR Macedonia
+      link: http://www.humanrightsofroma.20m.com/
+    - 
+      text: Academy for Training Judges and Public Prosecutors of Macedonia, FYR Macedonia
+      link: http://www.jpacademy.gov.mk/
+    - 
+      text: HRC – Human Rights Committee Vranje, Serbia
+      link: http://www.hrcvr.org/
+    - 
+      text: NGO The World of Words, Serbia
+      link: http://svetreci.org.rs/
+    - 
+      text: JAS – Judiciary academy of Serbia
+      link: http://www.pars.rs/
+    - 
+      text: Coalition “All for fair trials”, FYR Macedonia
+      link: http://www.all4fairtrials.org.mk/
+  saradnici_na_projektu_2: "SAssociates in the second phase of the project:"
+  saradnici_na_projektu_2_list:
+    - 
+      text: Judicial Academy of Serbia
+      link: http://www.pars.rs/
+    - 
+      text: Group 484, Serbia
+      link: http://www.grupa484.org.rs/
+    - 
+      text: Center for the Protection of Trafficking Victims, Serbia
+      link: http://www.centarzztlj.rs/
+    - 
+      text: Association of Prosecutors of the Federation of Bosnia and Herzegovina
+      link: http://www.pravosudje.ba/
+    - 
+      text: CRPC – Criminal Policy and Research Center, Bosnia and Herzegovina
+      link: http://www.cprc.ba/
+    - 
+      text: Ministry of Security/Anti Trafficking Department (State Coordinator), Bosnia and Herzegovina
+      link: http://www.msb.gov.ba/
+    - 
+      text: Association for Emancipation, Solidarity and Equality of Women, FRY Macedonia
+      link: http://www.esem.org.mk/
+    - 
+      text: National Commission for Combating Trafficking in Human Beings and Illegal Migration, FYR Macedonia (nema sajta)
+      link: 
+    - 
+      text: Safe Women’s House, Montenegro
+      link: http://www.szk.me/
+    - 
+      text: SOS Hotline for Women and Children Victims of Violence, Nikšić, Montenegro
+      link: http://www.sosnk.org/
+    - 
+      text: NHC – Netherlands Helsinki Committee, The Netherlands
+      link: http://www.nhc.nl/
+    - 
+      text: CCEM – Committe Contre L’Esclavage Moderne, France
+      link: http://www.esclavagemoderne.org/        
   kontakt: Contact
   kontakt_naziv: ASTRA - Anti Trafficking Action
   kontakt_tel: "tel: +381 11 785 0000"
