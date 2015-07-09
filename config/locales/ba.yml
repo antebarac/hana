@@ -73,7 +73,7 @@ ba:
       text: Otvorena porta – La Strada, Makedonija
       link: http://www.lastrada.org.mk
     - 
-      text: MFS Emmaus – Međunarodni forum solidarnosti, Bosna i Hercegovina
+      text: Međunarodni forum solidarnosti – EMMAUS (MFS – EMMAUS), Bosna i Hercegovina
       link: http://www.mfs-emmaus.ba
     - 
       text: ALC – Accompagnement, Lieux  d’Accueil, Carrefour educatif et social, Francuska
@@ -93,7 +93,7 @@ ba:
       text: Otvorena porta – La Strada, Makedonija
       link: http://www.lastrada.org.mk
     - 
-      text: MFS Emmaus – Međunarodni forum solidarnosti, Bosna i Hercegovina
+      text: Međunarodni forum solidarnosti – EMMAUS (MFS – EMMAUS), Bosna i Hercegovina
       link: http://www.mfs-emmaus.ba
     -
       text: Centar za ženska prava, Crna Gora
@@ -109,22 +109,24 @@ ba:
     - Ambasada Kraljevine Holandije
     - OAK Fondacija
     - Vlada Republike Hrvatske - Ured za udruge
+    - Fondacija za otvoreno društvo
   trajanje_projekta: Trajanje projekta
   trajanje_projekta_text: 24 mjeseca (decembar 2012 – decembar 2014)
+  trajanje_projekta_text_2: 22 mjeseca (januar 2015 – oktobar 2016)
   ciljevi: Ciljevi
   ciljevi_intro: Cilj projekta Balkans ACT Now je doprinos demokratizaciji i procesu EU integracija na Zapadnom Balkanu kroz unaprjeđenje okruženja za građanski aktivizam, kao i kroz jačanje kapaciteta, posvećenosti i uticaja mreža civilnog društva u debati o ljudskim pravima i vladavini prava u oblasti organizovanog kriminala, konkretno trgovine ljudima.
   specificni_ciljevi_po_fazama: Specifični ciljevi po fazama projekta
   prva_faza: Prva faza
   prva_faza_ciljevi: Unapređenje kapaciteta organizacija civilnog društva da vrše nezavisne i objektivne analize i monitoring; legitimnosti i odgovornosti; uticaja na politiku u Srbiji, Hrvatskoj, Bosni i Hercegovini i BJR Makedoniji u oblasti borbe protiv trgovine ljudima i usklađivanja politika u oblasti policije i pravosuđa sa standardima, normama i vrednostima EU.
   druga_faza: Druga faza
-  druga_faza_ciljevi: Evaluacija i javno predstavljanje postojećih praksi u oblasti pravosuđa kada se radi o postupanju sa žrtvama trgovine ljudima i relevantnim mehanizmima i procedurama. <br/><br/>Razvijanje i zastupanje uvođenje novog mehanizma za samoodrživ i efikasan mehanizam kompenzacije za žrtve trgovine ljudima i drugih krivičnih dela sa elementima nasilja u Bosni i Hercegovini, BJR Makedoniji, Srbiji i Crnoj Gori. 
+  druga_faza_ciljevi: Evaluacija i javno predstavljanje postojećih praksi u oblasti pravosuđa kada se radi o postupanju sa žrtvama trgovine ljudima i relevantnim mehanizmima i procedurama. <br/><br/>Razvijanje i zastupanje uvođenje novog mehanizma za samoodrživ i efikasan mehanizam kompenzacije za žrtve trgovine ljudima i drugih krivičnih djela sa elementima nasilja u Bosni i Hercegovini, BJR Makedoniji, Srbiji i Crnoj Gori. 
   ciljevi_text_1: Osnovni cilj projekta je doprinos demokratizaciji i procesu europskih integracija u Zapadnom Balkanu kroz unapređenje okruženja za građanski aktivizam, kapaciteta, posvećenosti i utjecaja mreža civilnog društva u oblasti ljudskih prava i vladavine prava u kontekstu problema organiziranog kriminala, tj. trgovine ljudima.
   ciljevi_text_2: Evaluacija i javno predstavljanje postojećih praksi u oblasti pravosuđa kada se radi o postupanju sa žrtvama trgovine ljudima i relevantnim mehanizmima i procedurama.  <br/><br/>Razvijanje i zastupanje uvođenja novog mehanizma za samoodrživ i efikasan mehanizam kompenzacije za žrtve trgovine ljudima i drugih krivičnih djela sa elementima nasilja u Bosni i Hercegovini, BJR Makedoniji, Srbiji i Crnoj Gori. 
   osnovne_aktivnosti: "Aktivnosti u prvoj fazi:"
   osnovne_aktivnosti_list:
     - Sprovođenje detaljne situacione analize u svim ciljnim zemljama i na tom osnovu izrada odgovarajuće partnerske strategije
     - Izrada, potpisivanje i operacionalizacija regionalne NVO Deklaracije o borbi protiv trgovine ljudima
-    - Treninzi za NVO u oblasti javnog zastupanja na visokom nivou, analize i praćenja rada policije i pravosuđa
+    - Treninzi za NVO u oblasti javnog zastupanja, analize i praćenja rada policije i pravosuđa
     - Organizaciju regionalne konferencije posvećene prenošenju najboljih EU praksi u oblasti trgovine ljudima
     - Sprovođenje ciljanih nacionalnih i regionalnih kampanja javnog zastupanja i izgradnje politika
     - Razvoj NVO monitoring mehanizma
@@ -140,7 +142,7 @@ ba:
   ocekivani_rezultati: "U prvoj fazi"    
   ocekivani_rezultati_list:
     - Poboljšanje partnerstva i saradnje između NVO i policije i pravosudnih organa u odabranim državama Zapadnog Balkana.
-    - Osnaživanje nevladinih organizacija Zapadnog Balkana u oblasti zastupanja na visokom nivou, analize i monitoringa rada policije i pravosuđa, obezbjeđenja da se čuje glas građana, te u oblasti odgovornosti i saradnje
+    - Osnaživanje nevladinih organizacija Zapadnog Balkana u oblasti zastupanja, analize i monitoringa rada policije i pravosuđa, obezbjeđenja da se čuje glas građana, te u oblasti odgovornosti i saradnje
     - Ciljane politike usklađene sa vrijednostima i standardima EU i kampanje zastupanja koje doprinose boljem funkcioniranju policije i pravosuđa
     - Operacionalizirana zajednička NVO regionalna strategija 
   ocekivani_rezultati_2: "U drugoj fazi"
@@ -155,7 +157,7 @@ ba:
       text: Udruženje tužilaca Federacije Bosne i Hercegovine
       link: http://www.pravosudje.ba
     - 
-      text: CRPC – Criminal Policy and Research Centre, Bosna i Hercegovina
+      text: CPRC – Criminal Policy and Research Centre, Bosna i Hercegovina
       link: http://www.cprc.ba
     - 
       text: Ministarstvo sigurnosti/Odsjek za borbu protiv trgovinu ljudima (državni koordinator), Bosna i Hercegovina
@@ -205,7 +207,7 @@ ba:
       text: Udruženje tužilaca Federacije Bosne i Hercegovine
       link: http://www.pravosudje.ba/
     - 
-      text: Centar za istraživanje politike suprotstavljanja kriminalitetu – CRPC, Bosna i Hercegovina
+      text: Centar za istraživanje politike suprotstavljanja kriminalitetu – CPRC, Bosna i Hercegovina
       link: http://www.cprc.ba/
     - 
       text: Ministarstvo sigurnosti/Odsjek za borbu protiv trgovinu ljudima (državni koordinator), Bosna i Hercegovina

@@ -109,6 +109,7 @@ en:
     - Embassy of the Kingdom of the Netherlands
     - OAK Foundation
     - Government of the Republic of Croatia – Office for Cooperation with NGOs
+    - Open Society Foundation, Serbia
   trajanje_projekta: "Duration of the project:"
   trajanje_projekta_text: "First phase: 24 months (December 2012 – December 2014)"
   trajanje_projekta_text_2: "Second phase: 22 months (January 2015 – October 2016)"
@@ -137,7 +138,7 @@ en:
     - Working groups for developing policy proposals for establishing state compensation fund in all targeted states
     - Strategic litigation of trafficking cases
     - Anti-trafficking media campaign.
-  ocekivani_rezultati_po_fazama: "Očekivani rezultati per project phases:"      
+  ocekivani_rezultati_po_fazama: "Expected results per project phases:"      
   ocekivani_rezultati: "In the phase one:"
   ocekivani_rezultati_list:
     - CSOs and justice sectors in targeted Western Balkans countries improve their partnership ties and joint work
@@ -156,7 +157,7 @@ en:
       text: Association of Prosecutors of the Federation of Bosnia and Herzegovina
       link: http://www.pravosudje.ba
     - 
-      text: CRPC – Criminal Policy and Research Centre, Bosna i Hercegovina
+      text: CPRC – Criminal Policy and Research Centre, Bosna i Hercegovina
       link: http://www.cprc.ba
     - 
       text: Ministry of Security/Department for Combating Human Trafficking (State Coordinator), Bosnia and Herzegovina  
@@ -191,7 +192,7 @@ en:
     - 
       text: Coalition “All for fair trials”, FYR Macedonia
       link: http://www.all4fairtrials.org.mk/
-  saradnici_na_projektu_2: "SAssociates in the second phase of the project:"
+  saradnici_na_projektu_2: "Associates in the second phase of the project:"
   saradnici_na_projektu_2_list:
     - 
       text: Judicial Academy of Serbia
@@ -206,7 +207,7 @@ en:
       text: Association of Prosecutors of the Federation of Bosnia and Herzegovina
       link: http://www.pravosudje.ba/
     - 
-      text: CRPC – Criminal Policy and Research Center, Bosnia and Herzegovina
+      text: CPRC – Criminal Policy and Research Center, Bosnia and Herzegovina
       link: http://www.cprc.ba/
     - 
       text: Ministry of Security/Anti Trafficking Department (State Coordinator), Bosnia and Herzegovina
@@ -261,7 +262,16 @@ en:
     - "From 2005 to 2013, the total of 112 human trafficking victims was identified in the Republic of Croatia. Domestic citizens prevailed among the identified victims. Out of the total number of identified victims, 62.5% were the nationals of the Republic of Croatia.<br/><br/>Between 2005 and 2010, 10 underage and 45 adult victims were identified (for one person there were no conclusive data). For the years of 2011, 2012 and 2013, age of the victims was not specified, but they were rather categorised into age groups (i.e. 18-24 year olds), so that no reliable statistical data can be compiled. Due to the lack of the data systematisation, it is not possible to compare the data pertaining to educational levels, belonging to national minorities, age and type of trafficking."
     - "The most frequent types of exploitation are sexual and labour exploitation, with coercion to crime, forced beggary and forced marriage also being represented.<br/><br/>The process of victim identification is not transparent and it still relies on the good will of the state apparatus – political will and public policies which do not have primary victims’ protection in their focus, but rather cater to state’s “higher” interest of protecting security, that is, the control of migration and social policies."
     - "No adequate and independent control of the identification system exists. All the actors who report on the process of victims’ identification, are simultaneously involved in the system of comprehensive support to victims, together with the state, and they are directly dependant on the state funding. Compensation to human trafficking victims still remains a complete theoretical, legal and practical enigma.<br/><br/>The reciprocity of processing criminal acts of human trafficking, in relation to the processing of the acts commonly related to it (i.e. cross-border prostitution), is still not satisfactory. <br/><br/>Conceptually, the state is yet to assume a strategic position pertaining to human trafficking, to facilitate high quality, long-term and analytical interventions dealing with associated trends and phenomena."
-  stats: 11
+  me_trends_title: "Human Trafficking Trends in Montenegro"
+  me_trends:
+    - "Montenegro is primarily a country of transit for trafficked persons, but also a country of destination. <br/><br/>According to official statistics, from 2004 to 2014,  there were a total of 35 victims of human trafficking in Montenegro, (10 in 2004, six in 2005, three in 2008, three in 2009, one in 2010 and 2011, nine in 2012, one in 2013 and two in 2014). Most of the victims (except five) were foreign citizens originating from Serbia, Ukraine, Kosovo, Albania and Bangladesh. Most victims are women-victims of sexual exploitation and among the victims there were ten men, victims of labor exploitation. As far as child trafficking is concerned, there were six cases from 2004-2014, from 12-17 years old."
+    - "The average age of the victims is between the age 17-45. <br/><br/>The above figures on victims of trafficking do not reveal the real scale of the phenomenon as they are limited to those persons who took part in criminal proceedings which resulted in final convictions of perpetrators of trafficking offences. <br/><br/>In addition, a number of other persons were assisted as presumed victims of trafficking, but the data are not available in official statistics. "
+    - "According to the State Department Trafficking in Persons Report for 2014, Montenegro is a source, transit, and destination country for men, women, and children subjected to sex trafficking and forced labor. In previous years, victims of sex trafficking identified in Montenegro were primarily women and girls from Montenegro, Serbia, Macedonia, Bosnia, Kosovo, and to a lesser extent, other countries in Eastern Europe. Victims were subjected to sex trafficking within hospitality facilities, bars, restaurants, night clubs, and cafes. Children of ethnic Roma, Ashkali, and Egyptian descent, displaced families, and other vulnerable children from Montenegro, Kosovo, Bosnia, and Serbia were subjected to forced begging on the streets. There have been reports that ethnic Roma girls from Montenegro, who are often forced into domestic servitude, have been sold into servile marriages in Roma communities in Kosovo. Although uncommon, internationally-organized criminal groups subject Montenegrin women and girls to sex trafficking in other Balkan countries."
+    - "The Report states that Government of Montenegro does not fully comply with the minimum standards for the elimination of trafficking, but is making significant efforts to do so. The government increased the anti-trafficking budget, elevated the National Coordinator position from under the Ministry of Interior to an independent agency, assigned a new National Coordinator in September 2013, and convicted more trafficking defendants. The government’s law enforcement efforts remained limited; however, it initiated one new investigation and prosecution against a trafficking offender. "
+    - "Victim identification remained inadequate. It recommends to Montenegrin authorities to vigorously investigate, prosecute, and convict trafficking offenders, including complicit officials; greatly increase proactive screening of potential victims, especially in vulnerable populations and potential victims of forced labor; develop a multi-disciplinary approach to proactive victim identification and include civil society groups and NGOs in the national referral mechanism; train law enforcement and judiciary officials on a victim-centered approach; continue to train law enforcement and border police on victim identification and trafficking awareness; ensure that police, social workers, and other officials working with high risk populations are trained to proactively identify and refer trafficking victims to services; ensure raids conducted are “smart” raids to free trafficking victims while minimizing harm to others and include arrangements to segregate traffickers from victims, to conduct victim-centered interviews, to cross-reference victims’ accounts, and to quickly transition to post-rescue care and shelter for identified victims; and encourage trafficking victims’ participation in prosecutions against traffickers."
+    - "According to EU Progress Report on Montenegro 2013, “a comprehensive, multi-disciplinary and victim oriented approach to trafficking still needs to be developed; identification of victims, as well as investigations, prosecutions and convictions against human beings traffickers need to be improved.” The report stated that organized crime remains a serious concern in Montenegro, underlining that a track record of proactive investigations and final convictions has yet to be established, including confiscation of criminal assets. The report emphasized the need to improve coordination between law enforcement agencies and the judiciary, and to increase capacity to carry out financial investigations in connection with complex criminal investigations. "
+    
+  stats: 13
   statisticki_podaci: Statistics
   vesti_i_press: News & press
   prava_zrtava_x: Victims' rights

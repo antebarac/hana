@@ -84,14 +84,20 @@
                 - if i == 0
                   %h2 Serbia
                   %br
-                - if i == 3
+                - elsif i == 3
                   %h2 Croatia
                   %br
-                - if i == 5
+                - elsif i == 5
                   %h2 Bosnia and Herzegovina
                   %br
-                - if i == 8
+                - elsif i == 8
                   %h2 Macedonia
+                  %br
+                - elsif i == 11
+                  %h2 Montenegro
+                  %br
+                - else
+                  %h2 &nbsp;
                   %br
 
               =image_tag ("stats/stat#{i + 1}.#{I18n.locale}.png")
@@ -130,6 +136,12 @@
               %a{name: 'trendovi_u_hr'}
               - if index == 0
                 %h1= t(:hr_trends_title) 
+              %p= text.html_safe
+          - t(:me_trends).each_with_index do |text, index|
+            .slide.big-slide
+              %a{name: 'trendovi_u_me'}
+              - if index == 0
+                %h1= t(:me_trends_title) 
               %p= text.html_safe
 
 
