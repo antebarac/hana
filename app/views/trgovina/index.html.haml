@@ -8,6 +8,11 @@
       .slide-container.big-slides
         .slide.big-slide
           %a{name: 'definicija'}
+          %p
+            %a{href: "http://banhumantrafficking.com/#{I18n.locale}", target: '_blank', class: 'ban-app-link'}
+              =image_tag('ban_app_logo.png', class: 'ban-app-logo')
+              =t(:preuzmi_aplikaciju)
+            <br/><br/>
           %p= t(:trgovina_ljudima_text1)
           #scroll
             =image_tag("scroll.png")
