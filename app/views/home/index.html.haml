@@ -44,12 +44,13 @@
           %h1= t(:strasno_iskustvo)
         .slide
           %h1= t(:hana_nadoknada) + ":"
+          - divider = I18n.locale == :mk ? ';' : ','
           %ul.big
-            %li= t(:za_batine) + ","
-            %li= t(:za_oduzetu_slobodu) + ","
-            %li= t(:za_prisilni_rad) + ","
-            %li= t(:za_strah) + ","
-            %li= t(:za_trajno_naruseno) + ","
+            %li= t(:za_batine) + divider
+            %li= t(:za_oduzetu_slobodu) + divider
+            %li= t(:za_prisilni_rad) + divider
+            %li= t(:za_strah) + divider
+            %li= t(:za_trajno_naruseno) + divider
             %li= t(:za_zivot) + "."
         .slide
           %h1= t(:hana_je_ljudsko_bice)
