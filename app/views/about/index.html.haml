@@ -106,29 +106,36 @@
               <br/>
               = t(:kontakt_web).html_safe
 
-          - if I18n.locale == :en
-            %p
-              Women’s Rights Center<br/>
-              tel/fax: +382 20 66 41 93<br/>
-              e-mail: <a href='mailto:women.mne@gmail.com'>women.mne@gmail.com</a><br/>
-             
-            %p
-              La Strada International<br/>
-              Tel: + 31 6 14444066<br/>
-              E-mail: <a href='mailto:info@lastradainternational.org'>info@lastradainternational.org</a><br/>
-              web: <a href='http://www.lastradainternational.org'>www.lastradainternational.org</a><br/>
-             
-            %p
-              La Strada Macedonia<br/>
-              Тел/факс: 0 389 2 2 700 107<br/>
-              Е-маил: <a href='mailto:lastrada@lastrada.org.mk'>lastrada@lastrada.org.mk</a><br/>
-              Веб: <a href='http://www.lastrada.org.mk'>www.lastrada.org.mk</a><br/>
-             
-            %p
-              International Forum of Solidarity - EMMAUS, Bosnia and Herzegovina<br/>
-              tel: +387 33 263 385; fax: +387 33 263 386 <br/>
-              e-mail: <a href='mailto:sarajevo@mfs-emmaus.ba'>sarajevo@mfs-emmaus.ba</a><br/>
-              web: <a href='http://www.sigurnodijete.ba'>www.sigurnodijete.ba</a>, <a href='http://www.bihat.ba'>www.bihat.ba</a><br/>
+            - if I18n.locale == :en
+              %p
+                Women’s Rights Center<br/>
+                tel/fax: +382 20 66 41 93<br/>
+                e-mail: <a href='mailto:women.mne@gmail.com'>women.mne@gmail.com</a><br/>
+
+              %p
+                La Strada International<br/>
+                Tel: + 31 6 14444066<br/>
+                E-mail: <a href='mailto:info@lastradainternational.org'>info@lastradainternational.org</a><br/>
+                web: <a href='http://www.lastradainternational.org'>www.lastradainternational.org</a><br/>
+               
+
+        - if I18n.locale == :en
+          .slide.big-slide
+            %h1 &nbsp;
+            .smaller
+
+
+              %p
+                La Strada Macedonia<br/>
+                Тел/факс: 0 389 2 2 700 107<br/>
+                Е-маил: <a href='mailto:lastrada@lastrada.org.mk'>lastrada@lastrada.org.mk</a><br/>
+                Веб: <a href='http://www.lastrada.org.mk'>www.lastrada.org.mk</a><br/>
+               
+              %p
+                International Forum of Solidarity - EMMAUS, Bosnia and Herzegovina<br/>
+                tel: +387 33 263 385; fax: +387 33 263 386 <br/>
+                e-mail: <a href='mailto:sarajevo@mfs-emmaus.ba'>sarajevo@mfs-emmaus.ba</a><br/>
+                web: <a href='http://www.sigurnodijete.ba'>www.sigurnodijete.ba</a>, <a href='http://www.bihat.ba'>www.bihat.ba</a>, <a href='http://www.eurocenter.net'>www.eurocenter.net</a><br/>
 
 
 
